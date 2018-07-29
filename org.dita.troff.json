@@ -1,0 +1,14 @@
+[
+  {
+    "name": "org.dita.troff",
+    "vers": "3.1.1",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.troff/archive/3.1.1.zip",
+    "cksum": "13abdb61963e59b6f0710602d5b97cc388407908d2f0c812b9b5b7eeab69a640"
+  }
+]

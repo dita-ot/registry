@@ -1,0 +1,14 @@
+[
+  {
+    "name": "com.sophos.tocjs",
+    "vers": "2.5",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.5"
+      }
+    ],
+    "url": "https://github.com/dita-ot/com.sophos.tocjs/archive/2.5.zip",
+    "cksum": "9294f0a5a2cc762e66feecfc27191db6789d1762250090297636281fdee14854"
+  }
+]

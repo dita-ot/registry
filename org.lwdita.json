@@ -1,0 +1,14 @@
+[
+  {
+    "name": "org.lwdita",
+    "vers": "2.0.6",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.2"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.0.6/org.lwdita-2.0.6.zip",
+    "cksum": "2f6be47396f5e0967a2bdb045c4490cc041650a2165e875eba6b03bbe692847a"
+  }
+]

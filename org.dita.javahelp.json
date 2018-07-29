@@ -1,0 +1,14 @@
+[
+  {
+    "name": "org.dita.javahelp",
+    "vers": "2.5",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.5"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.javahelp/archive/2.5.zip",
+    "cksum": "5f2269156e44b00f66aa5eeaec327a0eb1c505f170c676c5cd269368e1368704"
+  }
+]

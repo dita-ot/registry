@@ -1,0 +1,14 @@
+[
+  {
+    "name": "com.elovirta.ooxml",
+    "vers": "1.3.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.1"
+      }
+    ],
+    "url": "https://github.com/jelovirt/com.elovirta.ooxml/archive/1.3.0.zip",
+    "cksum": "9ecaa2bb1a587bc914d5065d6d3bf5e810d374fda7af822a7c178469c5f52f84"
+  }
+]

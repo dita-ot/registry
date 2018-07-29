@@ -1,0 +1,14 @@
+[
+  {
+    "name": "org.dita.normalize",
+    "vers": "1.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.5"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.normalize/archive/1.0.zip",
+    "cksum": "c4133d63c20c8e235c87e839888fe24306b20b0f6dcdd6c8ab5adbd57d5284a2"
+  }
+]

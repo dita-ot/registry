@@ -1,0 +1,14 @@
+[
+  {
+    "name": "org.dita.docbook",
+    "vers": "2.3",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.3"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.docbook/archive/2.3.zip",
+    "cksum": "9a2ff42950c9e2bd3d9fa722ad9197e988745479e4b587dc2b541202bb1b1cfb"
+  }
+]

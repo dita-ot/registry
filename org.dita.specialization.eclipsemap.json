@@ -1,0 +1,14 @@
+[
+  {
+    "name": "org.dita.specialization.eclipsemap",
+    "vers": "2.3",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.3"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.specialization.eclipsemap/archive/2.3.zip",
+    "cksum": "da0745901366daff6cf00bfcb62b1538751c21cc1025ddd0d004116c3ec93a28"
+  }
+]

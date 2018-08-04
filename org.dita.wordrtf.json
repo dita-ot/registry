@@ -1,0 +1,14 @@
+[
+  {
+    "name": "org.dita.wordrtf",
+    "vers": "2.3",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.3"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.wordrtf/archive/2.3.zip",
+    "cksum": "88e67782fb9dd10ac1f81b0fff69b12fce4692c671eb8b674de8ef5dae722b6f"
+  }
+]

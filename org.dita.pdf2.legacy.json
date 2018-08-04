@@ -1,0 +1,14 @@
+[
+  {
+    "name": "org.dita.pdf2.legacy",
+    "vers": "2.5",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.5"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.pdf2.legacy/archive/2.5.zip",
+    "cksum": "c40e188a8e74f6ddfffe7aa05d17ad6a06df582237da48ca1ce9b0cf675a9935"
+  }
+]

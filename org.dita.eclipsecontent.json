@@ -1,0 +1,14 @@
+[
+  {
+    "name": "org.dita.eclipsecontent",
+    "vers": "2.3",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.3"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.eclipsecontent/archive/2.3.zip",
+    "cksum": "785744cdca42ff4417fb9a599a76ae8d95c631c112d301d2bcc5d055f26ff3ba"
+  }
+]

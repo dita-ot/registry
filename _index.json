@@ -1,0 +1,4 @@
+---
+
+---
+[{%- for file in site.static_files -%}"{{ file.name }}"{% if forloop.last != true %},{% endif%}{%- endfor -%}]

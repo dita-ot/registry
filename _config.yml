@@ -1,2 +1,2 @@
-include: [_index.json]
+include: [_index.json,_all.json]
 exclude: [CNAME]

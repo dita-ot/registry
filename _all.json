@@ -1,0 +1,7 @@
+---
+---
+{
+  {%- for file in site.static_files -%}
+    "{{ file.name }}": {% include_relative {{file.name}} %}{% if forloop.last != true %},{% endif%}
+  {%- endfor -%}
+}

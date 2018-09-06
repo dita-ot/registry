@@ -1,4 +1,15 @@
 ---
-
 ---
-[{%- for file in site.static_files -%}"{{ file.name }}"{% if forloop.last != true %},{% endif%}{%- endfor -%}]
+[
+  {%- for file in site.static_files -%}
+    {%- if file.path contains '/build/' -%}
+    {%- elsif file.path contains '/package.json' -%}
+    {%- elsif file.path contains '/package-lock.json' -%}    
+    {%- elsif file.path contains '/manifest.json' -%}
+    {%- elsif file.path contains '/asset-manifest.json' -%}    
+    {%- elsif file.extname == '.json' -%}
+      "{{ file.name }}",
+    {%- endif -%}
+  {%- endfor -%}
+  null
+]

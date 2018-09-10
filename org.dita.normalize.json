@@ -1,6 +1,7 @@
 [
   {
     "name": "org.dita.normalize",
+    "description": "The org.dita.normalize plugin extends the DITA Open Toolkit with a dita transformation type that generates normalized topics and maps from DITA input.",
     "vers": "1.0",
     "deps": [
       {

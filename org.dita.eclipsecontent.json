@@ -1,6 +1,8 @@
 [
   {
     "name": "org.dita.eclipsecontent",
+    "description": "The Eclipse Content transformation generates normalized DITA files and Eclipse control files.",
+    "keywords": ["Eclipse"],
     "vers": "2.3",
     "deps": [
       {

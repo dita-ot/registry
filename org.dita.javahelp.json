@@ -1,6 +1,8 @@
 [
   {
     "name": "org.dita.javahelp",
+    "description": "DITA-OT plug-in to generate JavaHelp output.",
+    "keywords": ["JavaHelp"],
     "vers": "2.5",
     "deps": [
       {

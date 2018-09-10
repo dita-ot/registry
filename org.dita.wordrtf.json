@@ -1,6 +1,8 @@
 [
   {
     "name": "org.dita.wordrtf",
+    "description": "The Word RTF transformation produces an RTF file for use by Microsoft Word.",
+    "keywords": ["RTF"],
     "vers": "2.3",
     "deps": [
       {

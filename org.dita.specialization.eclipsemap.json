@@ -1,6 +1,8 @@
 [
   {
     "name": "org.dita.specialization.eclipsemap",
+    "description": "Eclipse DITA map specialization schemas.",
+    "keywords": ["Eclipse"],
     "vers": "2.3",
     "deps": [
       {

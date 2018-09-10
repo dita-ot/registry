@@ -1,6 +1,7 @@
 [
   {
     "name": "org.dita.specialization.dita132",
+    "description": "IBM DITA schemas.",
     "vers": "1.1.4",
     "deps": [
       {

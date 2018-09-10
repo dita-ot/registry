@@ -1,6 +1,8 @@
 [
   {
     "name": "org.dita.docbook",
+    "description": "Convert DITA to DocBook.",
+    "keywords": ["DocBook"],
     "vers": "2.3",
     "deps": [
       {

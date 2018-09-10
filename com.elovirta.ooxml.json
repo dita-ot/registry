@@ -1,6 +1,8 @@
 [
   {
     "name": "com.elovirta.ooxml",
+    "description": "DITA to Word plug-in",
+    "keywords": ["Word"],
     "vers": "1.3.0",
     "deps": [
       {

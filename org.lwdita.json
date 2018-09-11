@@ -3,6 +3,7 @@
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
     "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "homepage": "http://www.lwdita.org/",
     "vers": "2.0.6",
     "deps": [
       {

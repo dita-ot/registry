@@ -3,6 +3,7 @@
     "name": "org.dita.specialization.eclipsemap",
     "description": "Eclipse DITA map specialization schemas.",
     "keywords": ["Eclipse"],
+    "homepage": "https://github.com/dita-ot/org.dita.specialization.eclipsemap/",
     "vers": "2.3",
     "deps": [
       {

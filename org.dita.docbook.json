@@ -3,6 +3,7 @@
     "name": "org.dita.docbook",
     "description": "Convert DITA to DocBook.",
     "keywords": ["DocBook"],
+    "homepage": "https://github.com/dita-ot/org.dita.docbook/",
     "vers": "2.3",
     "deps": [
       {

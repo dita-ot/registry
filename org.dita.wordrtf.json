@@ -3,6 +3,7 @@
     "name": "org.dita.wordrtf",
     "description": "The Word RTF transformation produces an RTF file for use by Microsoft Word.",
     "keywords": ["RTF"],
+    "homepage": "https://github.com/dita-ot/org.dita.wordrtf/",
     "vers": "2.3",
     "deps": [
       {

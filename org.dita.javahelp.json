@@ -3,6 +3,7 @@
     "name": "org.dita.javahelp",
     "description": "DITA-OT plug-in to generate JavaHelp output.",
     "keywords": ["JavaHelp"],
+    "homepage": "https://github.com/dita-ot/org.dita.javahelp/",
     "vers": "2.5",
     "deps": [
       {

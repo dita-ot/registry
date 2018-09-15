@@ -4,6 +4,7 @@
     "description": "IBM DITA schemas.",
     "homepage": "https://github.com/dita-ot/org.dita.specialization.dita132/",
     "vers": "1.1.4",
+    "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",

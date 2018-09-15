@@ -7,6 +7,7 @@
     ],
     "homepage": "https://github.com/dita-ot/org.dita.troff/",
     "vers": "3.1.1",
+    "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",
@@ -24,6 +25,7 @@
     ],
     "homepage": "https://github.com/dita-ot/org.dita.troff/",
     "vers": "2.5",
+    "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",

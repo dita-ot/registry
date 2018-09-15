@@ -5,6 +5,7 @@
     "keywords": ["Eclipse"],
     "homepage": "https://github.com/dita-ot/org.dita.eclipsecontent/",
     "vers": "2.3",
+    "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",

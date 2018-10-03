@@ -1,3 +1,4 @@
-language: javascript
-install:
-  - .travis/validate.js
+sudo: false
+language: node_js
+install: true
+script: .travis/validate.js

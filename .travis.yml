@@ -1,0 +1,3 @@
+language: javascript
+install:
+  - .travis/validate.js

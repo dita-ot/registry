@@ -15,6 +15,7 @@ async function changedFiles() {
 
 function validate(plugins) {
   plugins.forEach(plugin => {
+    console.log(`INFO: Validating plugin ${plugin.name}@${plugin.vers}`);
     if (!plugin.name) {
       throw new Error("plugin name missing");
     }
@@ -27,16 +28,31 @@ function validate(plugins) {
   });
 }
 
-changedFiles().then(files => {
-  files.map(file => {
-    readFileAsync(file, { encoding: "utf8" }).then(data => {
-      const plugin = JSON.parse(data);
-      try {
-        validate(plugin);
-      } catch (e) {
-        console.error(`ERROR: Plugin ${file} validation failed: ${e.message}: ${JSON.stringify(plugin)}`);
-        process.exit(1);
-      }
+changedFiles()
+  .then(files => {
+    files.map(file => {
+      readFileAsync(file, { encoding: "utf8" })
+        .then(data => {
+          console.log(`INFO: Reading ${file}`);
+          const plugin = JSON.parse(data);
+          try {
+            validate(plugin);
+          } catch (e) {
+            console.error(
+              `ERROR: Plugin ${file} validation failed: ${
+                e.message
+              }: ${JSON.stringify(plugin)}`
+            );
+            process.exit(1);
+          }
+        })
+        .catch(e => {
+          console.error(`ERROR: Failed to read ${file}`);
+          process.exit(1);
+        });
     });
+  })
+  .catch(e => {
+    console.error(`ERROR: Failed to list changed files`);
+    process.exit(1);
   });
-});

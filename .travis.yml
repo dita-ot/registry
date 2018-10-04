@@ -1,4 +1,4 @@
 sudo: false
 language: node_js
 install: true
-script: .travis/validate.js
+script: node .travis/validate.js

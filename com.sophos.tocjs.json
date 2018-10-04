@@ -1,8 +1,8 @@
 [
   {
     "name": "com.sophos.tocjs",
-    "description": "The TocJS plugin generates a JavaScript-based frameset for the DITA Open Toolkit's HTML5 output with Table of Contents entries that expand and collapse.",
-    "keywords": ["HTML5"],
+    "description": "The TocJS plugin generates a JavaScript-based frameset for DITA Open Toolkit's XHTML output with Table of Contents entries that expand and collapse.",
+    "keywords": ["XHTML"],
     "homepage": "https://github.com/dita-ot/com.sophos.tocjs/",
     "vers": "2.5",
     "license": "Apache-2.0",

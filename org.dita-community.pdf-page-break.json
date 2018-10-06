@@ -1,0 +1,22 @@
+[
+  {
+    "name": "org.dita-community.pdf-page-break",
+    "description": "PDF Page Break Plugin — Adds support for an XML processing instruction that can be used to insert manual page breaks in PDF output.",
+    "keywords": ["PDF", "page-break"],
+    "homepage": "https://github.com/dita-community/org.dita-community.pdf-page-break",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=1.8.5"
+      },
+      {
+        "name": "org.dita.pdf2",
+        "req": ">=1.8.5"
+      }
+    ],
+    "url": "https://github.com/dita-community/org.dita-community.pdf-page-break/archive/v1.0.0.zip",
+    "cksum": "5ce90d7e127356587f845353171b0bed299c20388a7bf1df393b91b67afbf263"
+  }
+]

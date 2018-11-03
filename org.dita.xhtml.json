@@ -1,0 +1,16 @@
+[
+  {
+    "name": "org.dita.xhtml",
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2/org.dita.xhtml-3.2.zip",
+    "cksum": "0e8ea2f6c5f1d4f03b092aec33ad3f1064deb18ca1557dfdb71615d3905f79bc"
+  }
+]

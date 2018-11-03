@@ -1,0 +1,16 @@
+[
+  {
+    "name": "org.dita.htmlhelp",
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2/org.dita.htmlhelp-3.2.zip",
+    "cksum": "74b1abbe80bd4fb8b87de094f02dbf43df51812f3c49ed4aa29e4a0f8f0bf3c6"
+  }
+]

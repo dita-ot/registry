@@ -1,0 +1,16 @@
+[
+  {
+    "name": "org.dita.pdf2.axf",
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2/org.dita.pdf2.axf-3.2.zip",
+    "cksum": "081785f3f2c70d0e425206a010e7ce6bb0e5da2b185b95e40c025e2d86718982"
+  }
+]

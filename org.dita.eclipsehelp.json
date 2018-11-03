@@ -1,0 +1,16 @@
+[
+  {
+    "name": "org.dita.eclipsehelp",
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2/org.dita.eclipsehelp-3.2.zip",
+    "cksum": "2df3e4e380c15c32dc05498cb0e9bbbaab7c8fb9c897e5f19d390ec5fbd4f5ff"
+  }
+]

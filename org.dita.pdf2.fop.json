@@ -1,0 +1,17 @@
+[
+  {
+    "name": "org.dita.pdf2.fop",
+    "description": "PDF output extended for rendering with Apache FOP",
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2/org.dita.pdf2.fop-3.2.zip",
+    "cksum": "3b44859910a6c24750c932edfef761c821fb4473e3e49f72a9edfc6d515577df"
+  }
+]

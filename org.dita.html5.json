@@ -1,0 +1,17 @@
+[
+  {
+    "name": "org.dita.html5",
+    "description": "HTML5 output and a table of contents (TOC) file",
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2/org.dita.html5-3.2.zip",
+    "cksum": "56c15bd8f769be4c107bcdf1a2320bcab349a753da92d4f5f1cc1a8153d0a12e"
+  }
+]

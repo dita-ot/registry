@@ -1,6 +1,7 @@
 [
   {
     "name": "org.dita.pdf2.axf",
+    "description": "PDF output extended for rendering with Antenna House Formatter",
     "homepage": "https://github.com/dita-ot/dita-ot/",
     "vers": "3.2",
     "license": "Apache-2.0",

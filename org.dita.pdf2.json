@@ -1,6 +1,7 @@
 [
   {
     "name": "org.dita.pdf2",
+    "description": "Generates output in Portable Document Format",
     "homepage": "https://github.com/dita-ot/dita-ot/",
     "vers": "3.2",
     "license": "Apache-2.0",

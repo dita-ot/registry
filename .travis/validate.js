@@ -14,6 +14,10 @@ async function changedFiles() {
 }
 
 function validate(plugins) {
+  if (!!plugins.alias) {
+    // FIXME
+    return;
+  }
   plugins.forEach(plugin => {
     console.log(`INFO: Validating plugin ${plugin.name}@${plugin.vers}`);
     if (!plugin.name) {

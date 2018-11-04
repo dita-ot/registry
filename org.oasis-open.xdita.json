@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.oasis-open.xdita",
+    "description": "Lightweight DITA XDITA DTD support and samples.",
+    "keywords": ["XDITA", "OASIS"],
+    "homepage": "https://github.com/oasis-tcs/dita-lwdita/",
+    "vers": "0.2.2",
+    "license": "SEE LICENSE IN license.txt",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1"
+      }
+    ],
+    "url": "https://github.com/oasis-tcs/dita-lwdita/releases/download/v0.2.2/org.oasis-open.xdita.v0_2_2.zip",
+    "cksum": "D8E1CE9A3C6B5B98AC3775BF3DBD212ED0C53AD53A49C31FBD3DA5992DD6B702"
+  }
+]

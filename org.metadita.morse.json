@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.metadita.morse",
+    "description": "Morse code output (simple transtype demo)",
+    "keywords": ["Morse code"],
+    "homepage": "https://github.com/robander/metadita.tutorial.plugins/tree/master/org.metadita.morse",
+    "vers": "1.1",
+    "license": "Apache 2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1"
+      }
+    ],
+    "url": "https://github.com/robander/metadita.tutorial.plugins/releases/download/v1.1/org.metadita.morse.zip",
+    "cksum": "C084B99B53ECFC83B75C8545ADCD39F69169EC3D73424AF70869C5DF88EA85E6"
+  }
+]

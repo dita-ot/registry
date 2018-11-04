@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.doctales.schematron",
+    "description": "Adds Schematron validation support to the DITA-OT.",
+    "keywords": ["Schematron"],
+    "homepage": "https://github.com/doctales/org.doctales.schematron/",
+    "vers": "0.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.3"
+      }
+    ],
+    "url": "https://github.com/doctales/org.doctales.schematron/archive/0.1.zip",
+    "cksum": "47038392f4a7d81e0e6ba27876c16d2f67318f386ea032f220a041abeb9ffe4c"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.dita-semia.resolver",
+    "description": "Resolve special attributes to standard DITA content during preprocessing. Supporting XSLT-Conref, Conbat and Advanced Key-based References.",
+    "keywords": ["custom XML", "XSLT-conref", "conbat", "advanced key-ref", "implicit key definition"],
+    "homepage": "https://github.com/dita-semia/dita-semia-resolver",
+    "vers": "0.1.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": "2.4"
+      }
+    ],
+    "url": "https://github.com/dita-semia/dita-semia-resolver/archive/v0.1.2.zip",
+    "cksum": "098991d8b24f0ce90732567bd4d1a758eb9ab883047bad9c4de3b2d4c3ebe718"
+  }
+]

@@ -1,0 +1,9 @@
+printWidth: 80
+proseWrap: preserve
+singleQuote: true
+tabWidth: 2
+
+overrides:
+  - files: '*.json'
+    options:
+      printWidth: 120

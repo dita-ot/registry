@@ -1,0 +1,3 @@
+# Ignore configuration files with YAML front matter (transformed by Jekyll)
+_all.json
+_index.json

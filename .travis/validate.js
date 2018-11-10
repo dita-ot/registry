@@ -26,9 +26,11 @@ async function readBaseFile(file, opts) {
 
 function arrayToMapByVersion(plugins) {
   const res = {};
-  plugins.forEach(plugin => {
-    res[plugin.vers] = plugin;
-  });
+  if (!!plugins) {
+    plugins.forEach(plugin => {
+      res[plugin.vers] = plugin;
+    });
+  }
   return res;
 }
 

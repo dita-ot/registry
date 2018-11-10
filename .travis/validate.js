@@ -19,7 +19,7 @@ async function readBaseFile(file, opts) {
   try {
     const { stdout, stderr } = await exec(`git show ${process.env.TRAVIS_BRANCH}:${file}`, { encoding: 'utf8' });
     return stdout;
-  } catch(e) {
+  } catch (e) {
     return null;
   }
 }
@@ -87,14 +87,9 @@ function validateVersion(plugin, prev) {
   } else {
     return sha256(plugin.url).then(act => {
       if (plugin.cksum !== act) {
-        // console.log('throw', new Error(`File checksum ${act} doesn't match expected ${plugin.cksum}`))
         throw new Error(`File checksum ${act} doesn't match expected ${plugin.cksum}`);
       }
     });
-    // .catch(e => {
-    //   console.log('catch', e)
-    //   throw new Error(`Failed to calculate checksum: ${e}`);
-    // });
   }
 }
 
@@ -108,39 +103,6 @@ async function validate(plugins, origs) {
     .map(plugin => validateVersion(plugin, origByVers[plugin.vers]))
     .filter(promise => !!promise);
   return Promise.all(validations);
-  // plugins.forEach(async plugin => {
-  //   if (isSame(plugin, origByVers[plugin.vers])) {
-  //     console.log(`INFO: No changes in ${plugin.name}@${plugin.vers}`);
-  //     return;
-  //   }
-
-  //   console.log(`INFO: Validating plugin ${plugin.name}@${plugin.vers}`);
-  //   if (!plugin.name) {
-  //     throw new Error('plugin name missing');
-  //   }
-  //   if (!plugin.vers) {
-  //     throw new Error('plugin vers missing');
-  //   }
-  //   if (!plugin.url) {
-  //     throw new Error('plugin url missing');
-  //   }
-  //   if (!plugin.cksum) {
-  //     console.log('WARN: cksum missing');
-  //   } else {
-  //     await sha256(plugin.url)
-  //       .then(act => {
-  //         console.log(`Calculated checksum ${act}`);
-  //         if (plugin.cksum !== act) {
-  //           console.log('throw', new Error(`File checksum ${act} doesn't match expected ${plugin.cksum}`))
-  //           throw new Error(`File checksum ${act} doesn't match expected ${plugin.cksum}`);
-  //         }
-  //       })
-  //       .catch(e => {
-  //         console.log('catch', e)
-  //         throw new Error(`Failed to calculate checksum: ${e}`);
-  //       });
-  //   }
-  // });
 }
 
 changedFiles()
@@ -151,17 +113,7 @@ changedFiles()
           console.log(`INFO: Reading ${file}`);
           const plugin = JSON.parse(data);
           const origPlugin = JSON.parse(orig);
-          // try {
-          //   validate(plugin, origPlugin);
-          // } catch (e) {
-          //   console.error(`ERROR: Plugin ${file} validation failed: ${e.message}: ${JSON.stringify(plugin)}`);
-          //   process.exit(1);
-          // }
           return validate(plugin, origPlugin);
-          // .catch(e => {
-          //   console.error(`ERROR: Plugin ${file} validation failed: ${e.message}: ${JSON.stringify(plugin)}`);
-          // //   process.exit(1);
-          // })
         })
         .catch(e => {
           console.error(`ERROR: Plugin ${file} validation failed: ${e.message}`);

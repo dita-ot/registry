@@ -5,17 +5,23 @@ const request = require('request');
 const crypto = require('crypto');
 const readFileAsync = util.promisify(fs.readFile);
 
+const IGNORE = ['.travis/package-lock.json', '.travis/package.json'];
+
 async function changedFiles() {
   const { stdout, stderr } = await exec(`git diff --name-only ${process.env.TRAVIS_BRANCH}...HEAD`);
   return stdout
     .trim()
     .split(/\r?\n/)
-    .filter(file => file.match(/.json$/));
+    .filter(file => file.match(/.json$/) && !IGNORE.includes(file));
 }
 
 async function readBaseFile(file, opts) {
-  const { stdout, stderr } = await exec(`git show ${process.env.TRAVIS_BRANCH}:${file}`, { encoding: 'utf8' });
-  return stdout;
+  try {
+    const { stdout, stderr } = await exec(`git show ${process.env.TRAVIS_BRANCH}:${file}`, { encoding: 'utf8' });
+    return stdout;
+  } catch(e) {
+    return null;
+  }
 }
 
 function arrayToMapByVersion(plugins) {
@@ -59,7 +65,7 @@ function sha256(url) {
   });
 }
 
-function validateVersion(plugin, prev) {  
+function validateVersion(plugin, prev) {
   if (isSame(plugin, prev)) {
     console.log(`INFO: No changes in ${plugin.name}@${plugin.vers}`);
     return;
@@ -79,17 +85,16 @@ function validateVersion(plugin, prev) {
     console.log('WARN: cksum missing');
     return Promise.resolve();
   } else {
-    return sha256(plugin.url)
-      .then(act => {
-        if (plugin.cksum !== act) {
-          // console.log('throw', new Error(`File checksum ${act} doesn't match expected ${plugin.cksum}`))
-          throw new Error(`File checksum ${act} doesn't match expected ${plugin.cksum}`);
-        }
-      })
-      // .catch(e => {
-      //   console.log('catch', e)
-      //   throw new Error(`Failed to calculate checksum: ${e}`);
-      // });
+    return sha256(plugin.url).then(act => {
+      if (plugin.cksum !== act) {
+        // console.log('throw', new Error(`File checksum ${act} doesn't match expected ${plugin.cksum}`))
+        throw new Error(`File checksum ${act} doesn't match expected ${plugin.cksum}`);
+      }
+    });
+    // .catch(e => {
+    //   console.log('catch', e)
+    //   throw new Error(`Failed to calculate checksum: ${e}`);
+    // });
   }
 }
 
@@ -101,8 +106,8 @@ async function validate(plugins, origs) {
   const origByVers = arrayToMapByVersion(origs);
   const validations = plugins
     .map(plugin => validateVersion(plugin, origByVers[plugin.vers]))
-    .filter(promise => !!promise)
-  return Promise.all(validations)
+    .filter(promise => !!promise);
+  return Promise.all(validations);
   // plugins.forEach(async plugin => {
   //   if (isSame(plugin, origByVers[plugin.vers])) {
   //     console.log(`INFO: No changes in ${plugin.name}@${plugin.vers}`);
@@ -152,7 +157,7 @@ changedFiles()
           //   console.error(`ERROR: Plugin ${file} validation failed: ${e.message}: ${JSON.stringify(plugin)}`);
           //   process.exit(1);
           // }
-          return validate(plugin, origPlugin)
+          return validate(plugin, origPlugin);
           // .catch(e => {
           //   console.error(`ERROR: Plugin ${file} validation failed: ${e.message}: ${JSON.stringify(plugin)}`);
           // //   process.exit(1);

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.dita-semia.image-convert",
+    "description": "Convert SVG images for HTML-based output.",
+    "keywords": ["HTML", "image convert", "rasterize"],
+    "homepage": "https://github.com/dita-semia/org.dita-semia.image-convert",
+    "vers": "1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.3"
+      }
+    ],
+    "url": "https://github.com/dita-semia/org.dita-semia.image-convert/archive/v1.0.zip",
+    "cksum": "188c8344f2fea13b3a373938110639b6310fbad683312316c585eaac8bf06949"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "com.here.validate.svrl",
+    "description": "A structure, style and content linter for DITA documents.",
+    "keywords": ["validation", "lint"],
+    "homepage": "https://jason-fox.github.io/com.here.validate.svrl",
+    "vers": "2.0.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.3"
+      }
+    ],
+    "url": "https://github.com/jason-fox/com.here.validate.svrl/archive/v2.0.2.zip",
+    "cksum": "57a7db08366935a8554a25a82bb4d0a73f73f3f2e6048ed19c970747ce97c320"
+  }
+]

@@ -4,12 +4,12 @@
     "description": "DITA-OT plugin for transforming DITA to reveal.js based web presentations.",
     "keywords": ["reveal.js"],
     "homepage": "https://github.com/doctales/org.doctales.reveal/",
-    "vers": "1.3",
+    "vers": "1.3.0",
     "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.0"
+        "req": ">=3.0.0"
       }
     ],
     "url": "https://github.com/doctales/org.doctales.reveal/archive/1.3.zip",

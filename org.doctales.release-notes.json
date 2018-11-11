@@ -4,7 +4,7 @@
     "description": "DITA-OT plugin for generating release notes from DITA topics.",
     "keywords": ["Release Notes"],
     "homepage": "https://github.com/doctales/org.doctales.release-notes/",
-    "vers": "1.1",
+    "vers": "1.1.0",
     "license": "Apache-2.0",
     "deps": [
       {

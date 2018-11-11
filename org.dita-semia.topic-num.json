@@ -4,12 +4,12 @@
     "description": "Preprocessing step to add numbering cross-topic numbering for various elements intended for HTML output.",
     "keywords": ["HTML", "numbering", "cross-topic"],
     "homepage": "https://github.com/dita-semia/org.dita-semia.topic-num",
-    "vers": "2.4",
+    "vers": "2.4.0",
     "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=2.4"
+        "req": ">=2.4.0"
       }
     ],
     "url": "https://github.com/dita-semia/org.dita-semia.topic-num/archive/0.1.zip",

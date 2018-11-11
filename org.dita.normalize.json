@@ -4,12 +4,12 @@
     "description": "The org.dita.normalize plugin extends DITA Open Toolkit with a dita transformation type that generates normalized topics and maps from DITA input.",
     "keywords": ["DITA"],
     "homepage": "https://github.com/dita-ot/org.dita.normalize/",
-    "vers": "1.0",
+    "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=2.5"
+        "req": ">=2.5.0"
       }
     ],
     "url": "https://github.com/dita-ot/org.dita.normalize/archive/1.0.zip",

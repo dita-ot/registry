@@ -9,7 +9,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=2.3"
+        "req": ">=2.3.0"
       }
     ],
     "url": "https://github.com/jason-fox/fox.jason.unit-test/archive/v1.0.5.zip",

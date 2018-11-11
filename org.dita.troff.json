@@ -9,7 +9,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1"
+        "req": ">=3.1.0"
       }
     ],
     "url": "https://github.com/dita-ot/org.dita.troff/archive/3.1.1.zip",
@@ -20,12 +20,12 @@
     "description": "The troff transformation produces output for use with the troff viewer on Unix-style platforms, particularly for programs such as the man page viewer.",
     "keywords": ["troff"],
     "homepage": "https://github.com/dita-ot/org.dita.troff/",
-    "vers": "2.5",
+    "vers": "2.5.0",
     "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=2.5"
+        "req": ">=2.5.0"
       }
     ],
     "url": "https://github.com/dita-ot/org.dita.troff/archive/2.5.zip",

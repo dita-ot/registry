@@ -4,12 +4,12 @@
     "description": "DITA-OT plug-in to generate JavaHelp output.",
     "keywords": ["JavaHelp"],
     "homepage": "https://github.com/dita-ot/org.dita.javahelp/",
-    "vers": "2.5",
+    "vers": "2.5.0",
     "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=2.5"
+        "req": ">=2.5.0"
       }
     ],
     "url": "https://github.com/dita-ot/org.dita.javahelp/archive/2.5.zip",

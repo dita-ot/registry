@@ -4,12 +4,12 @@
     "description": "Eclipse DITA map specialization schemas.",
     "keywords": ["Eclipse"],
     "homepage": "https://github.com/dita-ot/org.dita.specialization.eclipsemap/",
-    "vers": "2.3",
+    "vers": "2.3.0",
     "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=2.3"
+        "req": ">=2.3.0"
       }
     ],
     "url": "https://github.com/dita-ot/org.dita.specialization.eclipsemap/archive/2.3.zip",

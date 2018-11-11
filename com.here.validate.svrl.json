@@ -9,7 +9,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=2.3"
+        "req": ">=2.3.0"
       }
     ],
     "url": "https://github.com/jason-fox/com.here.validate.svrl/archive/v2.0.2.zip",

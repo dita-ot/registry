@@ -4,12 +4,12 @@
     "description": "Yet another transtype for PDF output. Special Features: hyphenation for identifiers, @status markers, dl-outputclasses.",
     "keywords": ["PDF"],
     "homepage": "https://github.com/dita-semia/org.dita-semia.pdf",
-    "vers": "0.1",
+    "vers": "0.1.0",
     "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=2.4"
+        "req": ">=2.4.0"
       }
     ],
     "url": "https://github.com/dita-semia/org.dita-semia.pdf/archive/0.1.zip",

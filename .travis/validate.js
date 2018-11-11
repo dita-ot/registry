@@ -4,6 +4,7 @@ const fs = require('fs');
 const request = require('request');
 const crypto = require('crypto');
 const readFileAsync = util.promisify(fs.readFile);
+const semver = require('semver');
 
 const IGNORE = ['.travis/package-lock.json', '.travis/package.json'];
 
@@ -67,7 +68,7 @@ function sha256(url) {
   });
 }
 
-function validateVersion(plugin, prev) {
+function validateVersion(file, plugin, prev) {
   if (isSame(plugin, prev)) {
     console.log(`INFO: No changes in ${plugin.name}@${plugin.vers}`);
     return;
@@ -76,10 +77,37 @@ function validateVersion(plugin, prev) {
   console.log(`INFO: Validating plugin ${plugin.name}@${plugin.vers}`);
   if (!plugin.name) {
     return Promise.reject(new Error('plugin name missing'));
+  } else {
+    if (file !== `${plugin.name}.json`) {
+      return Promise.reject(new Error(`plugin name ${plugin.name} doesn't match filename ${file}`));
+    }
   }
   if (!plugin.vers) {
     return Promise.reject(new Error('plugin vers missing'));
+  } else {
+    if (!semver.valid(plugin.vers)) {
+      return Promise.reject(new Error(`plugin version ${plugin.vers} is not a valid SemVer version`));
+    }
   }
+  if (!!plugin.deps) {
+    try {
+      plugin.deps.forEach(dep => {
+        if (!dep.name) {
+          throw new Error('plugin dependency name missing');
+        }
+        if (!dep.req) {
+          throw new Error('plugin dependency version missing');
+        } else {
+          if (!semver.valid(dep.req)) {
+            throw new Error(`plugin dependency version ${dep.req} is not a valid SemVer version`);
+          }
+        }
+      })
+    } catch (e) {
+      return Promise.reject(e)
+    }
+  }
+
   if (!plugin.url) {
     return Promise.reject(new Error('plugin url missing'));
   }
@@ -95,27 +123,30 @@ function validateVersion(plugin, prev) {
   }
 }
 
-async function validate(plugins, origs) {
+async function validate(file, plugins, origs) {
   if (!!plugins.alias) {
     // FIXME
     return Promise.resolve();
   }
   const origByVers = arrayToMapByVersion(origs);
   const validations = plugins
-    .map(plugin => validateVersion(plugin, origByVers[plugin.vers]))
+    .map(plugin => validateVersion(file, plugin, origByVers[plugin.vers]))
     .filter(promise => !!promise);
   return Promise.all(validations);
 }
 
 changedFiles()
   .then(files => {
+    if (files.length === 0) {
+      console.log('INFO: No changes to validate');
+    }
     files.map(file => {
       Promise.all([readFileAsync(file, { encoding: 'utf8' }), readBaseFile(file)])
         .then(([data, orig]) => {
           console.log(`INFO: Reading ${file}`);
           const plugin = JSON.parse(data);
           const origPlugin = JSON.parse(orig);
-          return validate(plugin, origPlugin);
+          return validate(file, plugin, origPlugin);
         })
         .catch(e => {
           console.error(`ERROR: Plugin ${file} validation failed: ${e.message}`);

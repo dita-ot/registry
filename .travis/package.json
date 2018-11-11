@@ -5,6 +5,7 @@
   "author": "Jarno Elovirta <jarno@elovirta.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "semver": "^5.6.0"
   }
 }

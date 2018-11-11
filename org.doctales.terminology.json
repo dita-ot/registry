@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.doctales.terminology",
+    "description": "DITA-OT plugin for managing terminology with DITA.",
+    "keywords": ["Terminology"],
+    "homepage": "https://github.com/doctales/org.doctales.terminology/",
+    "vers": "1.1.5",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.3.0"
+      }
+    ],
+    "url": "https://github.com/doctales/org.doctales.terminology/archive/1.1.5.zip",
+    "cksum": "e70d807f503024e47dba6843bbc9d41edde1e0553d7c8df1ccc9fd7f2fc071bb"
+  }
+]

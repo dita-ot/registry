@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.doctales.xmltask",
+    "description": "Utility plugin which provides the OOPS Consultancy xmltask library.",
+    "keywords": ["Ant"],
+    "homepage": "https://github.com/doctales/org.doctales.xmltask/",
+    "vers": "1.16.1",
+    "license": "Apache-1.1",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.3.0"
+      }
+    ],
+    "url": "https://github.com/doctales/org.doctales.xmltask/archive/1.16.1.zip",
+    "cksum": "37c6508eeaabc09b87a44a9e50d6ac854da21b2df41508dfc21ed4db7b756469"
+  }
+]

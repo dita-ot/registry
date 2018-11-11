@@ -39,7 +39,13 @@ function isSame(p1, p2) {
   if (!p1 || !p2) {
     return false;
   }
-  return !['name', 'url', 'cksum'].map(key => p1[key] === p2[key]).includes(false);
+  if (['name', 'vers', 'url', 'cksum'].map(key => p1[key] === p2[key]).includes(false)) {
+    return false;
+  }
+  const depsCompare = (a, b) => a.name.localeCompare(b.name);
+  p1.deps.sort(depsCompare);
+  p2.deps.sort(depsCompare);
+  return JSON.stringify(p1.deps) === JSON.stringify(p2.deps);
 }
 
 function sha256(url) {
@@ -98,13 +104,13 @@ function validateVersion(file, plugin, prev) {
         if (!dep.req) {
           throw new Error('plugin dependency version missing');
         } else {
-          if (!semver.valid(dep.req)) {
+          if (!semver.validRange(dep.req)) {
             throw new Error(`plugin dependency version ${dep.req} is not a valid SemVer version`);
           }
         }
-      })
+      });
     } catch (e) {
-      return Promise.reject(e)
+      return Promise.reject(e);
     }
   }
 
@@ -116,7 +122,7 @@ function validateVersion(file, plugin, prev) {
     return Promise.resolve();
   } else {
     return sha256(plugin.url).then(act => {
-      if (plugin.cksum !== act) {
+      if (plugin.cksum.toLowerCase() !== act.toLowerCase()) {
         throw new Error(`File checksum ${act} doesn't match expected ${plugin.cksum}`);
       }
     });

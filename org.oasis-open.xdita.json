@@ -2,7 +2,7 @@
   {
     "name": "org.oasis-open.xdita",
     "description": "Lightweight DITA XDITA DTD support and samples.",
-    "keywords": ["XDITA", "OASIS"],
+    "keywords": ["XDITA", "OASIS", "default"],
     "homepage": "https://github.com/oasis-tcs/dita-lwdita/",
     "vers": "0.2.2",
     "license": "SEE LICENSE IN license.txt",

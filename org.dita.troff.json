@@ -2,7 +2,7 @@
   {
     "name": "org.dita.troff",
     "description": "The troff transformation produces output for use with the troff viewer on Unix-style platforms, particularly for programs such as the man page viewer.",
-    "keywords": ["troff"],
+    "keywords": ["troff", "default"],
     "homepage": "https://github.com/dita-ot/org.dita.troff/",
     "vers": "3.1.1",
     "license": "Apache-2.0",

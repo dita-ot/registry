@@ -2,6 +2,7 @@
   {
     "name": "org.dita.pdf2.fop",
     "description": "PDF output extended for rendering with Apache FOP",
+    "keywords": ["FOP", "default", "PDF"],
     "homepage": "https://github.com/dita-ot/dita-ot/",
     "vers": "3.2.0",
     "license": "Apache-2.0",

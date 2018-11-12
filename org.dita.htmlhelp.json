@@ -2,6 +2,7 @@
   {
     "name": "org.dita.htmlhelp",
     "description": "HTML output, CSS files, and the control files that are needed to produce a Microsoft Compiled HTML Help (.chm) file",
+    "keywords": ["HTML", "HTMLhelp", "default"],
     "homepage": "https://github.com/dita-ot/dita-ot/",
     "vers": "3.2.0",
     "license": "Apache-2.0",

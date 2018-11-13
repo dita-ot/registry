@@ -2,6 +2,7 @@
   {
     "name": "org.dita.html5",
     "description": "HTML5 output and a table of contents (TOC) file",
+    "keywords": ["HTML", "HTML5", "default"],
     "homepage": "https://github.com/dita-ot/dita-ot/",
     "vers": "3.2.0",
     "license": "Apache-2.0",

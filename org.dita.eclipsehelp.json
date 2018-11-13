@@ -2,6 +2,7 @@
   {
     "name": "org.dita.eclipsehelp",
     "description": "XHTML output, CSS files, and the control files that are needed for Eclipse help",
+    "keywords": ["Eclipse", "EclipseHelp", "default"],
     "homepage": "https://github.com/dita-ot/dita-ot/",
     "vers": "3.2.0",
     "license": "Apache-2.0",

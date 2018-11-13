@@ -2,7 +2,7 @@
   {
     "name": "org.dita.pdf2.legacy",
     "description": "DITA-OT plug-in to configure PDF2 legacy layout that was the default in DITA-OT before 2.5.",
-    "keywords": ["PDF"],
+    "keywords": ["PDF", "legacy"],
     "homepage": "https://github.com/dita-ot/org.dita.pdf2.legacy/",
     "vers": "2.5.0",
     "license": "Apache-2.0",

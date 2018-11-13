@@ -4,12 +4,12 @@
     "description": "Create a diff of a DITA document with a previous version of the same document with highlighted changes.",
     "keywords": ["Diff", "Compare"],
     "homepage": "https://github.com/dita-semia/org.dita-semia.diff",
-    "vers": "0.1",
+    "vers": "0.1.0",
     "license": "Apache-2.0",
     "deps": [
       {
         "name": "org.dita.base",
-        "req": "2.4"
+        "req": "2.4.0"
       }
     ],
     "url": "https://github.com/dita-semia/org.dita-semia.diff/archive/0.1.zip",

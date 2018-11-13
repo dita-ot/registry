@@ -9,7 +9,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": "2.4"
+        "req": "2.4.0"
       }
     ],
     "url": "https://github.com/dita-semia/dita-semia-resolver/archive/v0.1.2.zip",

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.dita-semia.postprocessing",
+    "description": "Set pdf filename depending on content (e.g. metadata) and zipping the result.",
+    "keywords": ["zip", "filename"],
+    "homepage": "https://github.com/dita-semia/org.dita-semia.postprocessing",
+    "vers": "0.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.4.0"
+      }
+    ],
+    "url": "https://github.com/dita-semia/org.dita-semia.postprocessing/archive/0.1.zip",
+    "cksum": "2e30b18ed29caa784ad614fd8107001589b1602e7216de02f274cef0f2df71cb"
+  }
+]

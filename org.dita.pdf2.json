@@ -2,7 +2,10 @@
   {
     "name": "org.dita.pdf2",
     "description": "Generates output in Portable Document Format",
-    "keywords": ["PDF", "default"],
+    "keywords": [
+      "PDF",
+      "default"
+    ],
     "homepage": "https://github.com/dita-ot/dita-ot/",
     "vers": "3.2.0",
     "license": "Apache-2.0",
@@ -14,5 +17,24 @@
     ],
     "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2/org.dita.pdf2-3.2.zip",
     "cksum": "447a2f6bf127282cd0d554e57f643156e54d0981693231af5768e774289fa3ae"
+  },
+  {
+    "name": "org.dita.pdf2",
+    "description": "Generates output in Portable Document Format",
+    "keywords": [
+      "PDF",
+      "default"
+    ],
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2.0"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2.1/org.dita.pdf2-3.2.1.zip",
+    "cksum": "48899be6391f7d1478fbae5b04c8496da921e134b6cd3e23e1b85ff9386c2ae7"
   }
 ]

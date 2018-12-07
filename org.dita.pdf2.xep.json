@@ -2,7 +2,12 @@
   {
     "name": "org.dita.pdf2.xep",
     "description": "PDF output extended for rendering with RenderX XEP",
-    "keywords": ["PDF", "default", "RenderX", "XEP"],
+    "keywords": [
+      "PDF",
+      "default",
+      "RenderX",
+      "XEP"
+    ],
     "homepage": "https://github.com/dita-ot/dita-ot/",
     "vers": "3.2.0",
     "license": "Apache-2.0",
@@ -14,5 +19,26 @@
     ],
     "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2/org.dita.pdf2.xep-3.2.zip",
     "cksum": "f826150ea2de3df6f1096f6c4f21f28c9c745d3a90398caa60370d3d44a4841b"
+  },
+  {
+    "name": "org.dita.pdf2.xep",
+    "description": "PDF output extended for rendering with RenderX XEP",
+    "keywords": [
+      "PDF",
+      "default",
+      "RenderX",
+      "XEP"
+    ],
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2.0"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2.1/org.dita.pdf2.xep-3.2.1.zip",
+    "cksum": "26223b0d3af03a43a6ab5a8cf17888f0af92343bfd1082ddd47669fb5b7c84c9"
   }
 ]

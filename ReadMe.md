@@ -32,7 +32,7 @@ This repository follows the [DITA-OT Contribution Guidelines][4], summarized bel
 - If you find a bug or would like to suggest a change, [create an issue][5].  
   _(If it's a bug, provide steps to recreate the issue.)_
 
-- To add a new plug-in or new version, [submit a pull request][2] with the proposed changes.
+- To add a new plug-in or new version, [submit a pull request][2] with the proposed changes. Create separate pull request for each plug-in version.
 
 - Indicate that you agree to the terms of the Apache License Version 2.0 by "[signing off][6]" your contribution with `git commit -s`.
 

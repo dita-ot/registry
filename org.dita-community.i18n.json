@@ -4,6 +4,22 @@
     "description": "Locale-aware sorting, grouping, line and word breaking, and text size estimation",
     "keywords": ["i18n", "sorting", "grouping", "line breaking", "word breaking", "text size", "ICU4J", "Simplified Chinese"],
     "homepage": "https://github.com/dita-community/org.dita-community.i18n",
+    "vers": "2.0.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3.0"
+      }
+    ],
+    "url": "https://github.com/dita-community/org.dita-community.i18n/releases/download/version-2.0.1/org_dita-community_i18n_plugin_2.0.1.zip",
+    "cksum": "905ee9cfda2b44a2b9f3592b2d88a4155e524e0cdc3b210c35cfbec914d29d95"
+  },
+  {
+    "name": "org.dita-community.i18n",
+    "description": "Locale-aware sorting, grouping, line and word breaking, and text size estimation",
+    "keywords": ["i18n", "sorting", "grouping", "line breaking", "word breaking", "text size", "ICU4J", "Simplified Chinese"],
+    "homepage": "https://github.com/dita-community/org.dita-community.i18n",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [

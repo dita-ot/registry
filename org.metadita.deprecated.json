@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.metadita.deprecated",
+    "description": "Report markup deprecated for DITA 2.0",
+    "keywords": ["deprecated", "validation", "OASIS"],
+    "homepage": "https://github.com/robander/deprecated-dita/",
+    "vers": "1.0.0",
+    "license": "Apache 2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.3"
+      }
+    ],
+    "url": "https://github.com/robander/deprecated-dita/releases/download/1.0/org.metadita.deprecated-1.0.zip",
+    "cksum": "5C2119D4360B234CE91F4AC7739313BCB4104E1AF12EE2542831BCC02B515B72"
+  }
+]

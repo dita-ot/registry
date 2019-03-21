@@ -1,4 +1,4 @@
-# DITA Open Toolkit Plug-in Registry
+# DITA Open Toolkit Plug-in Registry [![Netlify Status](https://api.netlify.com/api/v1/badges/626192a4-0b63-4a52-9b5a-ef6b46dc6464/deploy-status)](https://app.netlify.com/sites/plugins-dita-ot/deploys)
 
 This repository serves as the data backend for the DITA-OT plug-in registry.
 

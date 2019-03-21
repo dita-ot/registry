@@ -4,6 +4,9 @@
   "description": "DITA-OT registry validation",
   "author": "Jarno Elovirta <jarno@elovirta.com>",
   "license": "Apache-2.0",
+  "scripts": {
+    "install": "node deploy.js"
+  },
   "dependencies": {
     "request": "^2.88.0",
     "semver": "^5.6.0"

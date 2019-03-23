@@ -14,5 +14,21 @@
     ],
     "url": "https://github.com/jason-fox/com.here.validate.svrl/archive/v2.0.2.zip",
     "cksum": "57a7db08366935a8554a25a82bb4d0a73f73f3f2e6048ed19c970747ce97c320"
+  },
+  {
+    "name": "com.here.validate.svrl",
+    "description": "A structure, style and content linter for DITA, MDITA and Markdown documents.",
+    "keywords": ["validation", "lint"],
+    "homepage": "https://jason-fox.github.io/com.here.validate.svrl",
+    "vers": "3.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/com.here.validate.svrl/archive/v3.0.0.zip",
+    "cksum": "4416550b4e9baf0d7efae6ce19145631a0bdd4aebf3f230112293026cb2a67b9"
   }
 ]

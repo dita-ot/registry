@@ -6,7 +6,12 @@ const crypto = require('crypto');
 const readFileAsync = util.promisify(fs.readFile);
 const semver = require('semver');
 
-const IGNORE = ['.travis/package-lock.json', '.travis/package.json'];
+const IGNORE = [
+  '.travis/package-lock.json',
+  '.travis/package.json',
+  '.netlify/package-lock.json',
+  '.netlify/package.json'
+];
 
 async function changedFiles() {
   const { stdout, stderr } = await exec(`git diff --name-only ${process.env.TRAVIS_BRANCH}...HEAD`);

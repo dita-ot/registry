@@ -1,12 +1,11 @@
 {
   "name": "registry",
   "version": "1.0.0",
-  "description": "DITA-OT registry validation",
+  "description": "DITA-OT registry deployment",
   "repository": "github:dita-ot/registry",
   "author": "Jarno Elovirta <jarno@elovirta.com>",
   "license": "Apache-2.0",
-  "dependencies": {
-    "request": "^2.88.0",
-    "semver": "^5.6.0"
+  "scripts": {
+    "install": "node deploy.js"
   }
 }

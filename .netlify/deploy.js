@@ -10,7 +10,7 @@ const fs = {
 
 async function listFiles() {
   const src = '..';
-  const site = '../_site';
+  const site = 'build';
   try {
     await fs.mkdir(site, { recursive: true });
   } catch (err) {

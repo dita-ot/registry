@@ -18,5 +18,25 @@
     ],
     "url": "https://github.com/jason-fox/com.here.validate.svrl.text-rules/archive/v2.0.2.zip",
     "cksum": "c3940ba8a4c4d24f331996527cc5ab666b3e05738b0cfe0e0613a1ff5591ab8c"
+  },
+  {
+    "name": "com.here.validate.svrl.text-rules",
+    "description": "Simple rule-based spelling and grammar validation DITA-OT plug-in for text elements within DITA documents.",
+    "keywords": ["validation", "text-lint", "spell-checking", "grammar-checking"],
+    "homepage": "https://jason-fox.github.io/com.here.validate.svrl.text-rules",
+    "vers": "3.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "com.here.validate.svrl",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/com.here.validate.svrl.text-rules/archive/v3.0.0.zip",
+    "cksum": "6bfebafd60033f718c5c7e6389bc166989e516c8b63d09be93c8de43726f6a93"
   }
 ]

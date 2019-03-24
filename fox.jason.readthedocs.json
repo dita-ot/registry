@@ -3,7 +3,7 @@
     "name": "fox.jason.readthedocs",
     "description": "Plug-in to create a set of output files suitable for a ReadTheDocs documentation project",
     "keywords": ["readthedocs", "markdown"],
-    "homepage": "https://github.com/jason-fox/fox.jason.readthedocs/blob/master/README.md",
+    "homepage": "https://jason-fox.github.io/fox.jason.readthedocs",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [

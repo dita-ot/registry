@@ -1,0 +1,18 @@
+[
+  {
+    "name": "fox.jason.readthedocs",
+    "description": "Plug-in to create a set of output files suitable for a ReadTheDocs documentation project",
+    "keywords": ["readthedocs", "markdown"],
+    "homepage": "https://github.com/jason-fox/fox.jason.readthedocs/blob/master/README.md",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.readthedocs/archive/v1.0.0.zip",
+    "cksum": "fa55a3fc9f803c1ca659e13bb0e23bb84ad0c1f51bb9e214974977ef44a50a93"
+  }
+]

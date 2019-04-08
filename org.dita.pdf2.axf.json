@@ -58,5 +58,25 @@
     ],
     "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3/org.dita.pdf2.axf-3.3.0.zip",
     "cksum": "f751301526677c1350e40cf5d4cc76da8b4b9e889c27c3a618ff38f95f6b8126"
+  },
+  {
+    "name": "org.dita.pdf2.axf",
+    "description": "PDF output extended for rendering with Antenna House Formatter",
+    "keywords": [
+      "AntennaHouse",
+      "default",
+      "PDF"
+    ],
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.3.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3.1/org.dita.pdf2.axf-3.3.1.zip",
+    "cksum": "d14b840474ce1ec41a033a6b8ad79a2c7ccef4e6c25851b0e1e1c52ae720d4b6"
   }
 ]

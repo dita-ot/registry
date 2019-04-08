@@ -55,5 +55,24 @@
     ],
     "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3/org.dita.pdf2-3.3.0.zip",
     "cksum": "0b0723ce0b9921f897cc6e802a0a01ab449840f45f9c4d0ab8ef3df286efc349"
+  },
+  {
+    "name": "org.dita.pdf2",
+    "description": "Generates output in Portable Document Format",
+    "keywords": [
+      "PDF",
+      "default"
+    ],
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2.2/org.dita.pdf2-3.2.2.zip",
+    "cksum": "0bef6074b277cfe83c7d37dbc63e53618e04170d4fc04391650998bff64f87b3"
   }
 ]

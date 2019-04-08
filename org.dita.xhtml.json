@@ -58,5 +58,25 @@
     ],
     "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3/org.dita.xhtml-3.3.0.zip",
     "cksum": "a34d1d8ade1b5650e20c94759dc3162ce2903c09b4fab3e54107840e8895dfa3"
+  },
+  {
+    "name": "org.dita.xhtml",
+    "description": "XHTML output and a table of contents (TOC) file",
+    "keywords": [
+      "HTML",
+      "XHTML",
+      "default"
+    ],
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2.2/org.dita.xhtml-3.2.2.zip",
+    "cksum": "2e48ca9ec46c758a74366e0ef9c2493fec904d7793033807ffdf80bfe7ccf870"
   }
 ]

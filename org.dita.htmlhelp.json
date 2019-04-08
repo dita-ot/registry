@@ -58,5 +58,25 @@
     ],
     "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3/org.dita.htmlhelp-3.3.0.zip",
     "cksum": "2a8621e35b82d3db894d1ceac73f0c96135e83721dd2f70ece781b2033513a47"
+  },
+  {
+    "name": "org.dita.htmlhelp",
+    "description": "HTML output, CSS files, and the control files that are needed to produce a Microsoft Compiled HTML Help (.chm) file",
+    "keywords": [
+      "HTML",
+      "HTMLhelp",
+      "default"
+    ],
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.2.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.2"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.2.2/org.dita.htmlhelp-3.2.2.zip",
+    "cksum": "fd1ce01e0420e1c104c9e27e69976c4f7d77082f5d6b4fae55132a0a9cab6b77"
   }
 ]

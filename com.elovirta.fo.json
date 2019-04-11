@@ -1,0 +1,18 @@
+[
+  {
+    "name": "com.elovirta.fo",
+    "description": "DITA to XSL-FO",
+    "keywords": ["XSL-FO", "PDF"],
+    "homepage": "https://github.com/jelovirt/com.elovirta.fo/",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/com.elovirta.fo/archive/1.0.0.zip",
+    "cksum": "782b7e1e17af6bd22cbf56a0099fc87a7b71eaf6f65168b64c39f74b62a1d01e"
+  }
+]

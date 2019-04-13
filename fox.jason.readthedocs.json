@@ -18,5 +18,25 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.readthedocs/archive/v1.0.0.zip",
     "cksum": "fa55a3fc9f803c1ca659e13bb0e23bb84ad0c1f51bb9e214974977ef44a50a93"
+  },
+  {
+    "name": "fox.jason.readthedocs",
+    "description": "Plug-in to create a set of output files suitable for a ReadTheDocs documentation project",
+    "keywords": ["readthedocs", "markdown", "mkdocs"],
+    "homepage": "https://jason-fox.github.io/fox.jason.readthedocs",
+    "vers": "1.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "org.lwdita",
+        "req": ">=2.2.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.readthedocs/archive/v1.1.0.zip",
+    "cksum": "0b072a661e31356d5f127b57990e3260422c39f71a18c6b25993551ae2dffa89"
   }
 ]

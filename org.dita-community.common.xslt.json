@@ -12,7 +12,7 @@
         "req": ">=3.3"
       }
     ],
-    "url": "https://github.com/dita-community/org.dita-community.common.xslt/archive/1.1.0.zip",
-    "cksum": "02231f3baf64392cb75021d0c81b2faed118a57adbcf3c486013bbb89ae27c40"
+    "url": "https://github.com/dita-community/org.dita-community.common.xslt/releases/download/v${version}/org.dita-community.common.xslt.${version}.zip",
+    "cksum": "f3e61e5bd8ffa89a05ed027a099f24d0c9dd9590e59ce02c50cc2fe7d1b9fc1a"
   }
 ]

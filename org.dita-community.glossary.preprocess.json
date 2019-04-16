@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.dita-community.glossary.preprocess",
+    "description": "DITA Community glossary preprocessing extensions",
+    "homepage": "https://github.com/dita-community/org.dita-community.glossary.preprocess",
+    "keywords": ["glossary", "glossentry", "glossarylist", "glossgroup", "glossref"],
+    "vers": "${version}",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3"
+      }
+    ],
+    "url": "https://github.com/dita-community/org.dita-community.glossary.preprocess/archive/org.dita-community.glossary.preprocess.${version}.zip",
+    "cksum": "b42e5642deb19d3a75f69712fb59fe00128592d94bcc4d8699973e7a235da966"
+  }
+]

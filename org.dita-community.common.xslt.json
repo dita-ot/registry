@@ -4,6 +4,22 @@
     "description": "DITA Community common XSLT modules",
     "homepage": "https://github.com/dita-community/org.dita-community.common.xslt",
     "keywords": ["XSLT", "utilities"],
+    "vers": "1.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3"
+      }
+    ],
+    "url": "https://github.com/dita-community/org.dita-community.common.xslt/releases/download/v1.1.0/org.dita-community.common.xslt.1.1.0.zip",
+    "cksum": "4f3b757f074a49896f4188c3b44e3fe647c3b1cd4057d613634e533c8b4f38ab"
+  },
+  {
+    "name": "org.dita-community.common.xslt",
+    "description": "DITA Community common XSLT modules",
+    "homepage": "https://github.com/dita-community/org.dita-community.common.xslt",
+    "keywords": ["XSLT", "utilities"],
     "vers": "1.0.27",
     "license": "Apache-2.0",
     "deps": [

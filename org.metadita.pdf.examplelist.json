@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.metadita.pdf.examplelist",
+    "description": "Generate list of examples in PDF front matter",
+    "keywords": ["examplelist", "pdf", "pdf2"],
+    "homepage": "https://github.com/robander/org.metadita.pdf.examplelist/",
+    "vers": "1.0.0",
+    "license": "Apache 2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3.1"
+      }
+    ],
+    "url": "https://github.com/robander/org.metadita.pdf.examplelist/releases/download/v1.0/org.metadita.pdf.examplelist.zip",
+    "cksum": "756E6755DBE5A444FDED9128E436550F262D64A09C692FA0A282036370D4B658"
+  }
+]

@@ -78,5 +78,21 @@
     ],
     "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.2.2/org.lwdita-2.2.2.zip",
     "cksum": "bb8bf4583b39356e03f02199a7476b77dfba798da1e9597a27e43483fc8df199"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.3.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.2.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.3.0/org.lwdita-2.3.0.zip",
+    "cksum": "eb8781afe7a1f617068b9758de7e13e98c8de75ad78db26070824429d88668b1"
   }
 ]

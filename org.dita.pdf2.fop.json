@@ -58,5 +58,25 @@
     ],
     "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3/org.dita.pdf2.fop-3.3.0.zip",
     "cksum": "32a966ed8a28a3328f263f562e6796c4f78fd7a961b002a1d2aeaba0092a6249"
+  },
+  {
+    "name": "org.dita.pdf2.fop",
+    "description": "PDF output extended for rendering with Apache FOP",
+    "keywords": [
+      "FOP",
+      "default",
+      "PDF"
+    ],
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.3.3",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3.3/org.dita.pdf2.fop-3.3.3.zip",
+    "cksum": "cb6544ff1acf3787f1427530326c488ef17efe269ab22a09c725c9dc6db3306d"
   }
 ]

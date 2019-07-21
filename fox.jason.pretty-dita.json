@@ -31,7 +31,6 @@
     "url": "https://github.com/jason-fox/fox.jason.pretty-dita/archive/v1.2.0.zip",
     "cksum": "4239996840c977890ebc8f791223d74ded4b6a02e09965371376860b9993180d"
   },
-  ,
   {
     "name": "fox.jason.pretty-dita",
     "description": "A DITA prettifier DITA-OT Plug-in which formats DITA XML in an aesthetically pleasing manner.",

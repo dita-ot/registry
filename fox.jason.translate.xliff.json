@@ -14,5 +14,25 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.translate.xliff/archive/v1.0.0.zip",
     "cksum": "9a45536092156bbdbc0ce43915c1096925b889bbaf6a3c95a2338306a142504c"
+  },
+  {
+    "name": "fox.jason.translate.xliff",
+    "description": "Creates XLIFF from DITA, auto-translates and re-merges XLIFF files, generating translated documentation in a targeted foreign language.",
+    "keywords": ["xliff", "language-translation"],
+    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "vers": "2.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "org.doctales.xmltask",
+        "req": ">=1.16.1"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.translate.xliff/archive/v2.0.0.zip",
+    "cksum": "f13f4a2cdc29b564946e1c35287d3b0231fb130649242a75d2d73ecb36b7a5e8"
   }
 ]

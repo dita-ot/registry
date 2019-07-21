@@ -39,7 +39,6 @@
     "url": "https://github.com/jason-fox/fox.jason.readthedocs/archive/v1.1.0.zip",
     "cksum": "0b072a661e31356d5f127b57990e3260422c39f71a18c6b25993551ae2dffa89"
   },
-  ,
   {
     "name": "fox.jason.readthedocs",
     "description": "Plug-in to create a set of output files suitable for a ReadTheDocs documentation project",

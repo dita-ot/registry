@@ -21,10 +21,10 @@
       },
       {
         "name": "fox.jason.passthrough.pandoc",
-        "req": ">=1.0.0"
+        "req": ">=1.1.0"
       }
     ],
     "url": "https://github.com/jason-fox/fox.jason.passthrough.swagger/archive/v1.0.0.zip",
-    "cksum": "db594c7eefa3947aea520b4cdcf6987b434c171c5d480f03a667f027fef42175"
+    "cksum": "22177754825c75f835077e434845ff608c5d4b88e10cc65cc01ed3ca168d7d9f"
   }
 ]

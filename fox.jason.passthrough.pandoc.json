@@ -4,7 +4,7 @@
     "description": "Pandoc Plug-in for extending the available input formats for DITA-OT. Non DITA input sources can be pre-processed to create create valid DITA source.",
     "keywords": ["pandoc","DocBook","HTML","markdown","MS Word", "docx", "odt", "wiki", "rst", "epub", "latex"],
     "homepage": "https://jason-fox.github.io/fox.jason.passthrough.pandoc",
-    "vers": "1.0.0",
+    "vers": "1.1.0",
     "license": "Apache-2.0",
     "deps": [
       {
@@ -20,7 +20,7 @@
         "req": ">=1.0.0"
       }
     ],
-    "url": "https://github.com/jason-fox/fox.jason.passthrough.pandoc/archive/v1.0.0.zip",
-    "cksum": "6269fdf5efaa2a7fc6cbfcc4927bbcba9f21515387c5a97802431486bf43ea62"
+    "url": "https://github.com/jason-fox/fox.jason.passthrough.pandoc/archive/v1.1.0.zip",
+    "cksum": "5b83ea8326590e5dbed4910e3d0f49717c6b03818009a67b6d21018058587b9e"
   }
 ]

@@ -10,7 +10,15 @@
       {
         "name": "org.dita.base",
         "req": ">=3.1.0"
-      }
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.0.0"
+      },
+      {
+        "name": "fox.jason.prismjs",
+        "req": ">=2.1.0"
+      },
     ],
     "url": "https://github.com/jason-fox/fox.jason.prismjs.dark-theme/archive/v1.0.0.zip",
     "cksum": "1d1e68299db986aa91e41642126c55648aaaef7c39218fac3ebee74fc54626a0"

@@ -78,5 +78,25 @@
     ],
     "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3.3/org.dita.html5-3.3.3.zip",
     "cksum": "f5731dd54a534b65308a429b54b08e8343f49df6b56621a6532da727e708edd4"
+  },
+  {
+    "name": "org.dita.html5",
+    "description": "HTML5 output and a table of contents (TOC) file",
+    "keywords": [
+      "HTML",
+      "HTML5",
+      "default"
+    ],
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.3.4",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3.4/org.dita.html5-3.3.4.zip",
+    "cksum": "17a0ac782c54da00018179d70ab65a430c9d37919fffea0ea621f2b2f40992f9"
   }
 ]

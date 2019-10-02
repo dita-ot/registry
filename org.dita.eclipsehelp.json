@@ -78,5 +78,25 @@
     ],
     "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3.3/org.dita.eclipsehelp-3.3.3.zip",
     "cksum": "ffb37abb46ffbb4733bc97ac46cd029c545f831bc77ca8b7e763f4ec758688ad"
+  },
+  {
+    "name": "org.dita.eclipsehelp",
+    "description": "XHTML output, CSS files, and the control files that are needed for Eclipse help",
+    "keywords": [
+      "Eclipse",
+      "EclipseHelp",
+      "default"
+    ],
+    "homepage": "https://github.com/dita-ot/dita-ot/",
+    "vers": "3.3.4",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-ot/releases/download/3.3.4/org.dita.eclipsehelp-3.3.4.zip",
+    "cksum": "5b755e82f281822a554a6e483f347337addc2bb5223893f1e5120569d5ab1737"
   }
 ]

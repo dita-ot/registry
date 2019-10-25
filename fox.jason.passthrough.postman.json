@@ -62,6 +62,42 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.passthrough.postman/archive/v1.1.0.zip",
     "cksum": "af841454a6b7b885122c290c60e876d606a0bf3c67de7683912d1c80d59f00f5"
+  },
+  {
+    "name": "fox.jason.passthrough.postman",
+    "description": "DITA-OT Plug-in to automatically create REST API documentation from a Postman Collection",
+    "keywords": ["postman", "REST", "auto-generated text"],
+    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
+    "vers": "1.1.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "org.doctales.xmltask",
+        "req": ">=1.16.1"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.0.0"
+      },
+      {
+        "name": "fox.jason.passthrough",
+        "req": ">=2.2.0"
+      },
+      {
+        "name": "fox.jason.passthrough.pandoc",
+        "req": ">=1.2.1"
+      },
+      {
+        "name": "fox.jason.passthrough.swagger",
+        "req": ">=1.1.1"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.passthrough.postman/archive/v1.1.1.zip",
+    "cksum": "bbbd59d05c958c832f4c2058a5e3bdabeb6b7f296b73cf4c2de740bc0afa0bc6"
   }
 
 ]

@@ -18,5 +18,45 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.passthrough/archive/v1.0.0.zip",
     "cksum": "a1284de4dc2554f433466cdc50ac715392030d010d4fc252fa55edfe069fa61d"
+  },
+  {
+    "name": "fox.jason.passthrough",
+    "description": "Plug-in to enable files to bypass DITA-OT pre-processing",
+    "keywords": ["passthrough"],
+    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "vers": "2.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "org.doctales.xmltask",
+        "req": ">=1.16.1"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.passthrough/archive/v2.1.0.zip",
+    "cksum": "ec20099b56f2278deee4cf6494372778aeb234d7e3171753b1476faca7f8d7f0"
+  },
+  {
+    "name": "fox.jason.passthrough",
+    "description": "Plug-in to enable files to bypass DITA-OT pre-processing",
+    "keywords": ["passthrough"],
+    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "vers": "2.2.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "org.doctales.xmltask",
+        "req": ">=1.16.1"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.passthrough/archive/v2.2.0.zip",
+    "cksum": "99061e1cb7d98d53e358ec12f5b996248b8d8a21f69a3dc375b8ef9d48494014"
   }
 ]

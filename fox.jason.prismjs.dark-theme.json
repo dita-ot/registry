@@ -1,0 +1,26 @@
+[
+  {
+    "name": "fox.jason.prismjs.dark-theme",
+    "description": "Extension of the DITA-OT Prism-JS plug-in to amend the look-and-feel of highlighted code. Offers the standard Dark Theme from Prism-JS.",
+    "keywords": ["prismjs", "code-highlighter", "syntax-highlighting", "css"],
+    "homepage": "https://jason-fox.github.io/fox.jason.prismjs.dark-theme",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.0.0"
+      },
+      {
+        "name": "fox.jason.prismjs",
+        "req": ">=2.1.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.prismjs.dark-theme/archive/v1.0.0.zip",
+    "cksum": "1d1e68299db986aa91e41642126c55648aaaef7c39218fac3ebee74fc54626a0"
+  }
+]

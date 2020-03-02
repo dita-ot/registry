@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.dita.specialization.dita11",
+    "description": "DITA 1.1 schema plug-in for DITA-OT.",
+    "keywords": ["DITA", "OASIS", "default"],
+    "homepage": "https://github.com/oasis-tcs/dita-lwdita/",
+    "vers": "1.1.0",
+    "license": "SEE LICENSE IN LICENSE",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.specialization.dita11/archive/1.1.1.zip",
+    "cksum": "66ee347019e350955fd5f16119afff53cbbf795fcf76334cfd357291a111e5b6"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "com.oxygenxml.json.dita",
+    "description": "DITA Open Toolkit plugin which dynamically converts JSON files referenced in the DITA Map to DITA topics containing reusable content.",
+    "keywords": ["JSON", "DITA"],
+    "homepage": "https://github.com/oxygenxml/dita-json",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1.0"
+      }
+    ],
+    "url": "https://github.com/oxygenxml/dita-json/releases/download/1.0/dita-json-1.0-plugin.zip",
+    "cksum": "8C4130B97B1DBB4F28FF6AC36B33E104364583FDB157B3277593518346477B0D"
+  }
+]

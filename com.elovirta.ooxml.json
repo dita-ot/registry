@@ -14,5 +14,21 @@
     ],
     "url": "https://github.com/jelovirt/com.elovirta.ooxml/archive/1.3.0.zip",
     "cksum": "887e1d5ca73af51f0008a890c24ce8898e7948f035c66a6fcba9a2ef0153a136"
+  },
+  {
+    "name": "com.elovirta.ooxml",
+    "description": "DITA to Word plug-in",
+    "keywords": ["Word"],
+    "homepage": "https://github.com/jelovirt/com.elovirta.ooxml/",
+    "vers": "1.4.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.1.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/com.elovirta.ooxml/archive/1.4.0.zip",
+    "cksum": "4b7913d147c995898e1821a9d1f09a055adc4f49fc853588410d3210f29a4b66"
   }
 ]

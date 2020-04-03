@@ -1,0 +1,18 @@
+[
+  {
+    "name": "com.antennahouse.wml",
+    "description": "Convert DITA to Microsoft Word (.docx).",
+    "keywords": ["Word",".docx"],
+    "homepage": "https://github.com/AntennaHouse/ah-wml",
+    "vers": "0.9.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.3.0"
+      }
+    ],
+    "url": "https://github.com/AntennaHouse/ah-wml/archive/V0.9.1.zip",
+    "cksum": "4547FF9133EFB38DB424E295E7CA9971D60CEB8A7834648E235D29F1392DDF71"
+  }
+]

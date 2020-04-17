@@ -90,5 +90,37 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.passthrough.swagger/archive/v1.1.1.zip",
     "cksum": "2b3b36961a4db9c79447dd1e2059ba4f2e03990ad63875fe43d53e522e0f2488"
+  },
+  {
+    "name": "fox.jason.passthrough.swagger",
+    "description": "DITA-OT Plug-in to automatically create REST API documentation from a Swagger definition",
+    "keywords": ["swagger", "REST", "auto-generated text"],
+    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.swagger",
+    "vers": "1.2.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "org.doctales.xmltask",
+        "req": ">=1.16.1"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.0.1"
+      },
+      {
+        "name": "fox.jason.passthrough",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "fox.jason.passthrough.pandoc",
+        "req": ">=1.3.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.passthrough.swagger/archive/v1.2.0.zip",
+    "cksum": "7daa42f6ae909b2b1a675f37a678e6693015d3d382e96a01bc9082e9262e46cc"
   }
 ]

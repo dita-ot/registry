@@ -62,5 +62,29 @@
     ],
     "url": "https://github.com/jason-fox/com.here.validate.svrl.overrides/archive/v4.0.0.zip",
     "cksum": "b62089a7d7010c1cd973a88b17682b562091bb619dd59cf729ade51e702a4bcb"
+  },
+  {
+    "name": "com.here.validate.svrl.overrides",
+    "description": "Shows how to add, remove or extend the ruleset of the base DITA Validator (com.here.validate.svrl).",
+    "keywords": ["validation", "lint"],
+    "homepage": "https://github.com/jason-fox/com.here.validate.svrl.overrides/blob/master/README.md",
+    "vers": "4.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "org.doctales.xmltask",
+        "req": ">=1.16.1"
+      },
+      {
+        "name": "com.here.validate.svrl",
+        "req": ">=4.1.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/com.here.validate.svrl.overrides/archive/v4.1.0.zip",
+    "cksum": "339c1e0cb4505f6ffdb06fc1c42b8c62f9f0ce4c15d750ff2497887864ac5857"
   }
 ]

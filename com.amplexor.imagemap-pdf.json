@@ -4,7 +4,7 @@
     "description": "DITA-OT plugin to manage imagemap element in PDF.",
     "keywords": ["Image map"],
     "homepage": "https://github.com/Amplexor/com.amplexor.imagemap-pdf/",
-    "vers": "1.0",
+    "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
       {

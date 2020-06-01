@@ -2,7 +2,7 @@
   {
     "name": "com.amplexor.imagemap-pdf",
     "description": "DITA-OT plugin to manage imagemap element in PDF.",
-    "keywords": ["Image map"],
+    "keywords": ["Image map","PDF"],
     "homepage": "https://github.com/Amplexor/com.amplexor.imagemap-pdf/",
     "vers": "1.0.0",
     "license": "Apache-2.0",
@@ -14,5 +14,21 @@
     ],
     "url": "https://github.com/Amplexor/com.amplexor.imagemap-pdf/releases/download/v1.0/com.amplexor.imagemap-pdf-v1.0.zip",
     "cksum": "7AA384D01722EE8E8EC64E0B6E7B1F205B706577DE5604113EDDE1C455E401A3"
+  },
+  {
+    "name": "com.amplexor.imagemap-pdf",
+    "description": "DITA-OT plugin to manage imagemap element in PDF.",
+    "keywords": ["Image map","PDF"],
+    "homepage": "https://github.com/Amplexor/com.amplexor.imagemap-pdf/",
+    "vers": "1.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/Amplexor/com.amplexor.imagemap-pdf/releases/download/v1.1/com.amplexor.imagemap-pdf-v1.1.zip",
+    "cksum": "F96729341330CDB65BA8C2A6C4046FE0EAEBEBF719F74590992AFA0EDBB0DC2D"
   }
 ]

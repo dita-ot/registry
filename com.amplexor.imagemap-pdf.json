@@ -28,7 +28,7 @@
         "req": ">=3.0.0"
       }
     ],
-    "url": "https://github.com/Amplexor/com.amplexor.imagemap-pdf/releases/download/v1.1/com.amplexor.imagemap-pdf-v1.1.zip",
-    "cksum": "F96729341330CDB65BA8C2A6C4046FE0EAEBEBF719F74590992AFA0EDBB0DC2D"
+    "url": "https://github.com/Amplexor/com.amplexor.imagemap-pdf/releases/download/v1.1/com.amplexor.imagemap-pdf-v1.1.0.zip",
+    "cksum": "1BD00810E2F7782DC59E8AF984FF7B7232F016A8E66A265B33CA0A0C3DA5E660"
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "org.dita.html5.dublin-core",
+    "description": "Dublin Core output for HTML5",
+    "keywords": [
+      "metadata",
+      "HTML5",
+      "dublin-core"
+    ],
+    "homepage": "https://github.com/dita-ot/org.dita.html5.dublin-core/",
+    "vers": "3.6.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.html5",
+        "req": ">=3.6.0"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.html5.dublin-core/archive/3.6.0.zip",
+    "cksum": "945743dc6b8f2e8ac63aeb00c9308f2735607642884551330c30d4c938969e8c"
+  }
+]

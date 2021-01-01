@@ -1,0 +1,18 @@
+[
+  {
+    "name": "fox.jason.watermark",
+    "description": "Defaces draft PDFs with a watermark image",
+    "keywords": ["watermark", "pdf"],
+    "homepage": "https://jason-fox.github.io/fox.jason.watermark",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.watermark/archive/v1.0.0.zip",
+    "cksum": "ec39977619bb1c59f99dbedf7aa10ab739b76a6ae55edd292433a45d19c05f0f"
+  }
+]

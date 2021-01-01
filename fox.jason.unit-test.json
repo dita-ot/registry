@@ -46,5 +46,22 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.unit-test/archive/v2.0.0.zip",
     "cksum": "f94633f1617cd572e4dcc6a5d32e68d887072af96ff49d629bc87a25d06ca631"
+  },
+  {
+    "name": "fox.jason.unit-test",
+    "description": "Unit Testing and Code Coverage Framework for DITA-OT.",
+    "keywords": ["unit-testing", "code-coverage", "profiling"],
+    "homepage": "https://jason-fox.github.io/fox.jason.unit-test",
+    "vers": "2.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.unit-test/archive/v2.1.0.zip",
+    "cksum": "e2d83113f1f3ad346aa16fca247c80df81b0928140c420a9c4567468ba78238c"
   }
+
 ]

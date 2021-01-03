@@ -1,0 +1,18 @@
+[
+  {
+    "name": "fox.jason.watermark.auth",
+    "description": "Authorization of the watermarking of generated PDF files.",
+    "keywords": ["watermark", "authorization", "pdf"],
+    "homepage": "https://jason-fox.github.io/fox.jason.watermark.auth",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.watermark.auth/archive/v1.0.0.zip",
+    "cksum": "457edba202703c50bd14a976ede92a5da624e21685fd5fddeb5988c9bdaa103d"
+  }
+]

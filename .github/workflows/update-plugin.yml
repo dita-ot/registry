@@ -4,9 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       repository:
-        description: 'Repository Name'     
-        required: true  
-
+        description: 'Plugin Repository Name'     
+        required: true
+      target-branch:
+        description: 'Target Branch'
+        default: master
+        required: false
 jobs:
   create_revision_pr:
     runs-on: ubuntu-latest
@@ -16,8 +19,6 @@ jobs:
     # Step 1: run a standard checkout action, provided by github
     - name: Checkout HEAD
       uses: actions/checkout@v2
-      with:
-        ref: master
     
     # Step 2: Echo inputs
     - name: Read release information

@@ -54,7 +54,7 @@ jobs:
       uses: peter-evans/create-pull-request@v3
       with:
         delete-branch: true
-        branch-suffix: short-commit-hash
+        branch-suffix: timestamp
         title: Update ${{ github.event.inputs.repository }} to ${{ steps.plugin_info.outputs.version }}
         body: |
           Updating plugin `${{ github.event.inputs.repository }}`

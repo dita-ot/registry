@@ -6,10 +6,6 @@ on:
       repository:
         description: 'Plugin Repository Name'     
         required: true
-      target-branch:
-        description: 'Target Branch'
-        default: master
-        required: false
 jobs:
   create_revision_pr:
     runs-on: ubuntu-latest

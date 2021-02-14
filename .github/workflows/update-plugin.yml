@@ -59,9 +59,7 @@ jobs:
 
           [1]: https://github.com/peter-evans/create-pull-request
         labels: |
-          report
-          automated pr
-        draft: true
+          automated PR
 
     - name: Check outputs
       run: |

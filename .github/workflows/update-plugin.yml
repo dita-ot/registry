@@ -46,22 +46,10 @@ jobs:
         BRANCH="${PLUGIN_NAME}_${VERS}" 
         echo "::set-output name=branch::${BRANCH}"
         echo "::set-output name=version::${VERS}"
-    - name: Push to Repository
-      id: push_to_repository
-      env:
-        PLUGIN_NAME: ${{ github.event.inputs.repository }}
-        BRANCH: ${{ steps.plugin_info.outputs.branch }}
-        VERSION: ${{ steps.plugin_info.outputs.version }}
-      run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git checkout -b ${BRANCH}
-        git push -u origin ${BRANCH}
     - name: Create Pull Request
       id: cpr
       uses: peter-evans/create-pull-request@v3
       with:
-        branch: master
         delete-branch: true
         title: Update ${{ github.event.inputs.repository }} to ${{ steps.plugin_info.outputs.version }}
         body: |
@@ -73,7 +61,6 @@ jobs:
           report
           automated pr
         draft: true
-        push-to-fork: jason-fox/registry
 
     - name: Check outputs
       run: |

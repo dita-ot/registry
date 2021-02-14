@@ -41,6 +41,7 @@ jobs:
         echo $JSON > item.json
         UPDATED=$(jq '. += [input]' ${PLUGIN_NAME}.json item.json) 
         echo $UPDATED | jq . > ${PLUGIN_NAME}.json
+        rm item.json
         git  --no-pager diff
         BRANCH="${PLUGIN_NAME}_${VERS}" 
         echo "::set-output name=branch::${BRANCH}"
@@ -55,8 +56,6 @@ jobs:
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
         git checkout -b ${BRANCH}
-        git add ${PLUGIN_NAME}.json
-        git commit -s -m"Release  of ${PLUGIN_NAME}"
         git push -u origin ${BRANCH}
     - name: Create Pull Request
       id: cpr
@@ -74,6 +73,7 @@ jobs:
           report
           automated pr
         draft: true
+        push-to-fork: jason-fox/registry
 
     - name: Check outputs
       run: |

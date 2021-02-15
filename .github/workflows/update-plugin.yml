@@ -51,10 +51,7 @@ jobs:
           rm -f ${BINARY}
           if [ -z ${{ github.event.inputs.vers }} ]
           then
-            if [[ $URL = *"/releases/download"* ]]; then
-              VERS=$(echo ${url#*"/releases/download/"} | cut -d '/' -f1)
-            fi
-            VERS=$(echo $VERS | awk 'match($0,/[0-9\.]+/) {print substr($0,RSTART,RLENGTH)}')
+            VERS=$(echo $URL | awk 'match($0,/[0-9]+\.[0-9\.]*/) {print substr($0,RSTART,RLENGTH)}')
           else
             VERS=${{ github.event.inputs.vers }}
           fi

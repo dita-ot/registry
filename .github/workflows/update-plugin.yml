@@ -10,6 +10,12 @@ on:
         description: 'Target Branch'
         default: master
         required: false
+      url:
+        description: 'Plugin Binary URL'
+        required: false
+      vers:
+        description: 'Semantic Version Number'
+        required: false
 jobs:
   create_revision_pr:
     runs-on: ubuntu-latest
@@ -28,13 +34,31 @@ jobs:
       env:
         PLUGIN_NAME: ${{ github.event.inputs.repository }}
       run: |
-        RELEASE=$(curl -s https://api.github.com/repos/${{ github.repository_owner }}/${PLUGIN_NAME}/releases/latest | grep tag_name | cut -d '"' -f 4) 
-        URL=https://github.com/${{ github.repository_owner }}/${{ github.event.inputs.repository }}/archive/"${RELEASE}".zip
-        curl -LO -s $URL
-        CHKSUM=$(shasum -a 256 ${RELEASE}.zip | cut -d ' ' -f 1 )
-        rm -f "${RELEASE}".zip
-        VERS="${RELEASE/v/}"
         
+        if [ -z ${{ github.event.inputs.url }} ]
+        then
+          RELEASE=$(curl -s https://api.github.com/repos/${{ github.repository_owner }}/${PLUGIN_NAME}/releases/latest | grep tag_name | cut -d '"' -f 4) 
+          URL=https://github.com/${{ github.repository_owner }}/${{ github.event.inputs.repository }}/archive/"${RELEASE}".zip
+          curl -LO -s $URL
+          CHKSUM=$(shasum -a 256 ${RELEASE}.zip | cut -d ' ' -f 1 )
+          rm -f "${RELEASE}".zip
+          VERS="${RELEASE/v/}"
+        else
+          URL=${{ github.event.inputs.url }}
+          BINARY=$(basename $URL)
+          curl -LO -s $URL
+          CHKSUM=$(shasum -a 256 ${BINARY} | cut -d ' ' -f 1 )
+          rm -f ${BINARY}
+          if [ -z ${{ github.event.inputs.vers }} ]
+          then
+            if [[ $URL = *"/releases/download"* ]]; then
+              VERS=$(echo ${url#*"/releases/download/"} | cut -d '/' -f1)
+            fi
+            VERS=$(echo $VERS | awk 'match($0,/[0-9\.]+/) {print substr($0,RSTART,RLENGTH)}')
+          else
+            VERS=${{ github.event.inputs.vers }}
+          fi
+        fi
         echo "${PLUGIN_NAME}"
         JSON=$(cat ${PLUGIN_NAME}.json | jq '.[length -1]')
         JSON=$(echo $JSON | jq  --arg name "$PLUGIN_NAME" '. | .url|=$name ')

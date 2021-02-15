@@ -42,20 +42,19 @@ jobs:
           curl -LO -s $URL
           CHKSUM=$(shasum -a 256 ${RELEASE}.zip | cut -d ' ' -f 1 )
           rm -f "${RELEASE}".zip
-          VERS="${RELEASE/v/}"
         else
           URL=${{ github.event.inputs.url }}
           BINARY=$(basename $URL)
           curl -LO -s $URL
           CHKSUM=$(shasum -a 256 ${BINARY} | cut -d ' ' -f 1 )
           rm -f ${BINARY}
-          if [ -z ${{ github.event.inputs.vers }} ]
+        fi
+        if [ -z ${{ github.event.inputs.vers }} ]
           then
-            VERS=$(echo $URL | awk 'match($0,/[0-9]+\.[0-9\.]*/) {print substr($0,RSTART,RLENGTH)}')
+            VERS=$(echo $URL | awk 'match($0,/[0-9]+\.[0-9]+(\.[0-9]+)*/) {print substr($0,RSTART,RLENGTH)}')
           else
             VERS=${{ github.event.inputs.vers }}
           fi
-        fi
         echo "${PLUGIN_NAME}"
         JSON=$(cat ${PLUGIN_NAME}.json | jq '.[length -1]')
         JSON=$(echo $JSON | jq  --arg name "$PLUGIN_NAME" '. | .url|=$name ')

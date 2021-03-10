@@ -2,7 +2,10 @@
   {
     "name": "fox.jason.extend.css",
     "description": "Extension to allow additional plug-ins to add an extra CSS stylesheet to HTML pages.",
-    "keywords": ["html", "css"],
+    "keywords": [
+      "html",
+      "css"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.extend.css",
     "vers": "1.0.0",
     "license": "Apache-2.0",
@@ -18,7 +21,10 @@
   {
     "name": "fox.jason.extend.css",
     "description": "Extension to allow additional plug-ins to add an extra CSS stylesheet to HTML pages.",
-    "keywords": ["html", "css"],
+    "keywords": [
+      "html",
+      "css"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.extend.css",
     "vers": "1.0.1",
     "license": "Apache-2.0",
@@ -30,5 +36,43 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.extend.css/archive/v1.0.1.zip",
     "cksum": "c9260266c7ee6e46d178499ed9039e4a14a50ac37b161a44e06c01e7bbf099fe"
+  },
+  {
+    "name": "fox.jason.extend.css",
+    "description": "Extension to allow additional plug-ins to add an extra CSS stylesheet to HTML pages.",
+    "keywords": [
+      "html",
+      "css"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.extend.css",
+    "vers": "1.0.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.extend.css/archive/v1.0.2.zip",
+    "cksum": "2de53a6c10ca6965ed5d362c7e2db834474ad012a3fafa125b3e9a10aa0971d7"
+  },
+  {
+    "name": "fox.jason.extend.css",
+    "description": "Extension to allow additional plug-ins to add an extra CSS stylesheet to HTML pages.",
+    "keywords": [
+      "html",
+      "css"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.extend.css",
+    "vers": "1.0.3",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.extend.css/archive/v1.0.3.zip",
+    "cksum": "c9ea515b2a62951890c5cd30b56b63a4c07c90adbc12db112fd518afc36b818b"
   }
 ]

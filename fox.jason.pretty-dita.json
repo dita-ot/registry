@@ -2,7 +2,11 @@
   {
     "name": "fox.jason.pretty-dita",
     "description": "A DITA prettifier DITA-OT Plug-in which formats DITA XML in an aesthetically pleasing manner.",
-    "keywords": ["pretty-print", "dita", "formatting"],
+    "keywords": [
+      "pretty-print",
+      "dita",
+      "formatting"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.pretty-dita",
     "vers": "1.0.0",
     "license": "Apache-2.0",
@@ -18,7 +22,11 @@
   {
     "name": "fox.jason.pretty-dita",
     "description": "A DITA prettifier DITA-OT Plug-in which formats DITA XML in an aesthetically pleasing manner.",
-    "keywords": ["pretty-print", "dita", "formatting"],
+    "keywords": [
+      "pretty-print",
+      "dita",
+      "formatting"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.pretty-dita",
     "vers": "1.2.0",
     "license": "Apache-2.0",
@@ -34,7 +42,11 @@
   {
     "name": "fox.jason.pretty-dita",
     "description": "A DITA prettifier DITA-OT Plug-in which formats DITA XML in an aesthetically pleasing manner.",
-    "keywords": ["pretty-print", "dita", "formatting"],
+    "keywords": [
+      "pretty-print",
+      "dita",
+      "formatting"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.pretty-dita",
     "vers": "1.3.0",
     "license": "Apache-2.0",
@@ -50,7 +62,11 @@
   {
     "name": "fox.jason.pretty-dita",
     "description": "A DITA prettifier DITA-OT Plug-in which formats DITA XML in an aesthetically pleasing manner.",
-    "keywords": ["pretty-print", "dita", "formatting"],
+    "keywords": [
+      "pretty-print",
+      "dita",
+      "formatting"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.pretty-dita",
     "vers": "1.4.0",
     "license": "Apache-2.0",
@@ -66,7 +82,11 @@
   {
     "name": "fox.jason.pretty-dita",
     "description": "A DITA prettifier DITA-OT Plug-in which formats DITA XML in an aesthetically pleasing manner.",
-    "keywords": ["pretty-print", "dita", "formatting"],
+    "keywords": [
+      "pretty-print",
+      "dita",
+      "formatting"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.pretty-dita",
     "vers": "1.5.0",
     "license": "Apache-2.0",
@@ -78,5 +98,25 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.pretty-dita/archive/v1.5.0.zip",
     "cksum": "5d96a70aaa1045f6e1216f768a5ba9801015897dcc1c0fd50b4d24f31d4d69c9"
+  },
+  {
+    "name": "fox.jason.pretty-dita",
+    "description": "A DITA prettifier DITA-OT Plug-in which formats DITA XML in an aesthetically pleasing manner.",
+    "keywords": [
+      "pretty-print",
+      "dita",
+      "formatting"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.pretty-dita",
+    "vers": "1.5.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.pretty-dita/archive/v1.5.1.zip",
+    "cksum": "62ad781c9e145e1dc3bd47f0f37a328ab0a94b930ab0a27904ff4e662fc1f365"
   }
 ]

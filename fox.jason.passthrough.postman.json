@@ -2,7 +2,11 @@
   {
     "name": "fox.jason.passthrough.postman",
     "description": "DITA-OT Plug-in to automatically create REST API documentation from a Postman Collection",
-    "keywords": ["postman", "REST", "auto-generated text"],
+    "keywords": [
+      "postman",
+      "REST",
+      "auto-generated text"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
     "vers": "1.0.0",
     "license": "Apache-2.0",
@@ -30,7 +34,11 @@
   {
     "name": "fox.jason.passthrough.postman",
     "description": "DITA-OT Plug-in to automatically create REST API documentation from a Postman Collection",
-    "keywords": ["postman", "REST", "auto-generated text"],
+    "keywords": [
+      "postman",
+      "REST",
+      "auto-generated text"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
     "vers": "1.1.0",
     "license": "Apache-2.0",
@@ -66,7 +74,11 @@
   {
     "name": "fox.jason.passthrough.postman",
     "description": "DITA-OT Plug-in to automatically create REST API documentation from a Postman Collection",
-    "keywords": ["postman", "REST", "auto-generated text"],
+    "keywords": [
+      "postman",
+      "REST",
+      "auto-generated text"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
     "vers": "1.1.1",
     "license": "Apache-2.0",
@@ -102,7 +114,11 @@
   {
     "name": "fox.jason.passthrough.postman",
     "description": "DITA-OT Plug-in to automatically create REST API documentation from a Postman Collection",
-    "keywords": ["postman", "REST", "auto-generated text"],
+    "keywords": [
+      "postman",
+      "REST",
+      "auto-generated text"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
     "vers": "1.2.0",
     "license": "Apache-2.0",
@@ -134,6 +150,41 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.passthrough.postman/archive/v1.2.0.zip",
     "cksum": "a6f788a7ae00ed396f7747451247d01d52825c4d014a634612fa739b8918be76"
+  },
+  {
+    "name": "fox.jason.passthrough.postman",
+    "description": "DITA-OT Plug-in to automatically create REST API documentation from a Postman Collection",
+    "keywords": [
+      "postman",
+      "REST",
+      "auto-generated text"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
+    "vers": "2.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.0.2"
+      },
+      {
+        "name": "fox.jason.passthrough",
+        "req": ">=4.0.0"
+      },
+      {
+        "name": "fox.jason.passthrough.pandoc",
+        "req": ">=2.0.0"
+      },
+      {
+        "name": "fox.jason.passthrough.swagger",
+        "req": ">=2.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.passthrough.postman/archive/v2.0.0.zip",
+    "cksum": "5e2e5a9f350f2cffe30842c26d3009e7453749a37ff9b7f54d72b19b2bede36a"
   }
-
 ]

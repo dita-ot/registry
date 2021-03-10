@@ -273,7 +273,7 @@
       },
       {
         "name": "fox.jason.extend.css",
-        "req": ">=1.0.1"
+        "req": ">=1.0.3"
       }
     ],
     "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v3.1.0.zip",

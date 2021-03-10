@@ -169,7 +169,7 @@
       },
       {
         "name": "fox.jason.extend.css",
-        "req": ">=1.0.2"
+        "req": ">=1.0.3"
       },
       {
         "name": "fox.jason.passthrough",

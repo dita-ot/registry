@@ -260,7 +260,7 @@
       "syntax-highlighting"
     ],
     "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
-    "vers": "3.1.0",
+    "vers": "3.2.0",
     "license": "Apache-2.0",
     "deps": [
       {
@@ -268,15 +268,11 @@
         "req": ">=3.1.0"
       },
       {
-        "name": "org.doctales.xmltask",
-        "req": ">=1.16.1"
-      },
-      {
         "name": "fox.jason.extend.css",
         "req": ">=1.0.3"
       }
     ],
-    "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v3.1.0.zip",
-    "cksum": "1b3bb83f425c623b273b8c2097c3dd18aec710aa5d11127bb78a4efd78bfb610"
+    "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v3.2.0.zip",
+    "cksum": "54bdda7c1332363f08a4eeb73a374ab6780d1f1ddc6a82152dec2a9742ef8d2b"
   }
 ]

@@ -2,7 +2,10 @@
   {
     "name": "com.here.validate.svrl",
     "description": "A structure, style and content linter for DITA documents.",
-    "keywords": ["validation", "lint"],
+    "keywords": [
+      "validation",
+      "lint"
+    ],
     "homepage": "https://jason-fox.github.io/com.here.validate.svrl",
     "vers": "2.0.2",
     "license": "Apache-2.0",
@@ -18,7 +21,10 @@
   {
     "name": "com.here.validate.svrl",
     "description": "A structure, style and content linter for DITA, MDITA and Markdown documents.",
-    "keywords": ["validation", "lint"],
+    "keywords": [
+      "validation",
+      "lint"
+    ],
     "homepage": "https://jason-fox.github.io/com.here.validate.svrl",
     "vers": "3.0.0",
     "license": "Apache-2.0",
@@ -34,7 +40,10 @@
   {
     "name": "com.here.validate.svrl",
     "description": "A structure, style and content linter for DITA, MDITA and Markdown documents.",
-    "keywords": ["validation", "lint"],
+    "keywords": [
+      "validation",
+      "lint"
+    ],
     "homepage": "https://jason-fox.github.io/com.here.validate.svrl",
     "vers": "4.0.0",
     "license": "Apache-2.0",
@@ -54,7 +63,10 @@
   {
     "name": "com.here.validate.svrl",
     "description": "A structure, style and content linter for DITA, MDITA and Markdown documents.",
-    "keywords": ["validation", "lint"],
+    "keywords": [
+      "validation",
+      "lint"
+    ],
     "homepage": "https://jason-fox.github.io/com.here.validate.svrl",
     "vers": "4.1.0",
     "license": "Apache-2.0",
@@ -70,5 +82,28 @@
     ],
     "url": "https://github.com/jason-fox/com.here.validate.svrl/archive/v4.1.0.zip",
     "cksum": "8d9c65ab723e1c8d5a1107e5e543401313be5383b500346048884b629f5e0300"
+  },
+  {
+    "name": "com.here.validate.svrl",
+    "description": "A structure, style and content linter for DITA, MDITA and Markdown documents.",
+    "keywords": [
+      "validation",
+      "lint"
+    ],
+    "homepage": "https://jason-fox.github.io/com.here.validate.svrl",
+    "vers": "4.1.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "org.doctales.xmltask",
+        "req": ">=1.16.1"
+      }
+    ],
+    "url": "https://github.com/jason-fox/com.here.validate.svrl/archive/v4.1.1.zip",
+    "cksum": "3d486e3c7070b67c949cd186ef5393e8efd82d23c02690f7e3be2b05f53ffc2b"
   }
 ]

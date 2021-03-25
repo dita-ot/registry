@@ -2,7 +2,11 @@
   {
     "name": "fox.jason.passthrough.javadoc",
     "description": "DITA-OT Plug-in to automatically create API documentation extracted from comments within Java source code.",
-    "keywords": ["javadoc", "java", "auto-generated text"],
+    "keywords": [
+      "javadoc",
+      "java",
+      "auto-generated text"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.passthrough.javadoc",
     "vers": "1.0.0",
     "license": "Apache-2.0",
@@ -26,7 +30,11 @@
   {
     "name": "fox.jason.passthrough.javadoc",
     "description": "DITA-OT Plug-in to automatically create API documentation extracted from comments within Java source code.",
-    "keywords": ["javadoc", "java", "auto-generated text"],
+    "keywords": [
+      "javadoc",
+      "java",
+      "auto-generated text"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.passthrough.javadoc",
     "vers": "1.0.1",
     "license": "Apache-2.0",
@@ -46,5 +54,29 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.passthrough.javadoc/archive/v1.0.1.zip",
     "cksum": "5119d1b16720de95ee0809a204b2d7794d37696d36a1648465d181e82b8eb663"
+  },
+  {
+    "name": "fox.jason.passthrough.javadoc",
+    "description": "DITA-OT Plug-in to automatically create API documentation extracted from comments within Java source code.",
+    "keywords": [
+      "javadoc",
+      "java",
+      "auto-generated text"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.javadoc",
+    "vers": "2.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3.0"
+      },
+      {
+        "name": "fox.jason.passthrough",
+        "req": ">=4.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.passthrough.javadoc/archive/v2.0.0.zip",
+    "cksum": "d18e4b3baf12059954cc405cd15309762e45337ba1cb153c9b53d9f5b4af6c8e"
   }
 ]

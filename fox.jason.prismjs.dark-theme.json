@@ -37,7 +37,7 @@
       },
       {
         "name": "fox.jason.extend.css",
-        "req": ">=1.0.1"
+        "req": ">=1.0.3"
       },
       {
         "name": "fox.jason.prismjs",

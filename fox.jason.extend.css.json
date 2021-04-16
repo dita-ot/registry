@@ -74,5 +74,24 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.extend.css/archive/v1.0.3.zip",
     "cksum": "c9ea515b2a62951890c5cd30b56b63a4c07c90adbc12db112fd518afc36b818b"
+  },
+  {
+    "name": "fox.jason.extend.css",
+    "description": "Extension to allow additional plug-ins to add an extra CSS stylesheet to HTML pages.",
+    "keywords": [
+      "html",
+      "css"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.extend.css",
+    "vers": "1.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.extend.css/archive/v1.1.0.zip",
+    "cksum": "b87ae00f2ac56f02f1e46f6c2581afda124df5d7e74b6db0b23d87a5323816b8"
   }
 ]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "fox.jason.tabs.css",
+    "description": "CSS-only tabbed dialog within DITA HTML output",
+    "keywords": [
+      "HTML",
+      "HTML5",
+      "tabs",
+      "css"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.tabs.css",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.1.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.tabs.css/archive/v1.0.0.zip",
+    "cksum": "fc7d3cfad967768e35be8ad0b8e76b3b217cee11d4ad1239a168bde806ca9f89"
+  }
+]

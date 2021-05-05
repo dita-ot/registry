@@ -3,7 +3,7 @@
     "name": "fox.jason.watermark.auth",
     "description": "Authorization of the watermarking of generated PDF files.",
     "keywords": ["watermark", "authorization", "pdf"],
-    "homepage": "https://jason-fox.github.io/fox.jason.watermark.auth",
+    "homepage": "https://github.com/jason-fox/fox.jason.watermark.auth",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [

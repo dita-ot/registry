@@ -10,6 +10,10 @@
       {
         "name": "org.dita.base",
         "req": ">=3.0.0"
+      },
+      {
+        "name": "fox.jason.watermark",
+        "req": ">=1.0.1"
       }
     ],
     "url": "https://github.com/jason-fox/fox.jason.watermark.auth/archive/v1.0.0.zip",

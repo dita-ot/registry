@@ -1,0 +1,16 @@
+name: Test
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.16'
+      - name: Install
+        run: |
+          npm --prefix .travis ci
+      - name: Test
+        run: |
+          node .travis/validate.js

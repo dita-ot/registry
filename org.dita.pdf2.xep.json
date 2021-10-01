@@ -124,5 +124,26 @@
     ],
     "url": "https://github.com/dita-ot/org.dita.pdf2.xep/releases/download/3.6.1/org.dita.pdf2.xep-3.6.1.zip",
     "cksum": "5a29f9c79459c04b7a6cc9ee4d5b67c9a6e46411f8243a14f81bf4110b05e485"
+  },
+  {
+    "name": "org.dita.pdf2.xep",
+    "description": "PDF output extended for rendering with RenderX XEP",
+    "keywords": [
+      "PDF",
+      "default",
+      "RenderX",
+      "XEP"
+    ],
+    "homepage": "https://github.com/dita-ot/org.dita.pdf2.xep",
+    "vers": "3.6.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.6"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.pdf2.xep/releases/download/3.6.2/org.dita.pdf2.xep-3.6.2.zip",
+    "cksum": "9e365525f720fd69d5f3128f959e2bc922a6e79ad00d6bfc8302752e49f4365d"
   }
 ]

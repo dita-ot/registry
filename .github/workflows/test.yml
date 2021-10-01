@@ -10,7 +10,10 @@ jobs:
           node-version: '14.16'
       - name: Install
         run: |
-          npm --prefix .travis ci
+          npm --prefix .github ci
       - name: Test
         run: |
-          node .travis/validate.js
+          node .github/validate.js
+        env:
+          HEAD_SHA: ${{ github.event.after }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}

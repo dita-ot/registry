@@ -7,23 +7,25 @@ const readFileAsync = util.promisify(fs.readFile);
 const semver = require('semver');
 
 const IGNORE = [
-  '.travis/package-lock.json',
-  '.travis/package.json',
+  '.github/package-lock.json',
+  '.github/package.json',
   '.netlify/package-lock.json',
-  '.netlify/package.json'
+  '.netlify/package.json',
 ];
 
 async function changedFiles() {
-  const { stdout, stderr } = await exec(`git diff --name-only ${process.env.GITHUB_BASE_REF}...${process.env.GITHUB_HEAD_REF}`);
+  const { stdout, stderr } = await exec(
+    `git diff --name-only ${process.env.BASE_SHA}...HEAD`
+  );
   return stdout
     .trim()
     .split(/\r?\n/)
-    .filter(file => file.match(/.json$/) && !IGNORE.includes(file));
+    .filter((file) => file.match(/.json$/) && !IGNORE.includes(file));
 }
 
 async function readBaseFile(file, opts) {
   try {
-    const { stdout, stderr } = await exec(`git show ${process.env.GITHUB_BASE_REF}:${file}`, { encoding: 'utf8' });
+    const { stdout, stderr } = await exec(`git show ${process.env.BASE_SHA}:${file}`, { encoding: 'utf8' });
     return stdout;
   } catch (e) {
     return null;
@@ -33,7 +35,7 @@ async function readBaseFile(file, opts) {
 function arrayToMapByVersion(plugins) {
   const res = {};
   if (!!plugins) {
-    plugins.forEach(plugin => {
+    plugins.forEach((plugin) => {
       res[plugin.vers] = plugin;
     });
   }
@@ -44,7 +46,7 @@ function isSame(p1, p2) {
   if (!p1 || !p2) {
     return false;
   }
-  if (['name', 'vers', 'url', 'cksum'].map(key => p1[key] === p2[key]).includes(false)) {
+  if (['name', 'vers', 'url', 'cksum'].map((key) => p1[key] === p2[key]).includes(false)) {
     return false;
   }
   const depsCompare = (a, b) => a.name.localeCompare(b.name);
@@ -59,10 +61,10 @@ function sha256(url) {
     console.log(`INFO: Download ${url}`);
     request
       .get(url)
-      .on('error', err => {
+      .on('error', (err) => {
         reject(new Error(`Failed to download ${url}: ${err}`));
       })
-      .on('data', chunk => {
+      .on('data', (chunk) => {
         try {
           hash.update(chunk);
         } catch (e) {
@@ -102,7 +104,7 @@ function validateVersion(file, plugin, prev) {
   }
   if (!!plugin.deps) {
     try {
-      plugin.deps.forEach(dep => {
+      plugin.deps.forEach((dep) => {
         if (!dep.name) {
           throw new Error('plugin dependency name missing');
         }
@@ -126,7 +128,7 @@ function validateVersion(file, plugin, prev) {
     console.log('WARN: cksum missing');
     return Promise.resolve();
   } else {
-    return sha256(plugin.url).then(act => {
+    return sha256(plugin.url).then((act) => {
       if (plugin.cksum.toLowerCase() !== act.toLowerCase()) {
         throw new Error(`File checksum ${act} doesn't match expected ${plugin.cksum}`);
       }
@@ -141,17 +143,17 @@ async function validate(file, plugins, origs) {
   }
   const origByVers = arrayToMapByVersion(origs);
   const validations = plugins
-    .map(plugin => validateVersion(file, plugin, origByVers[plugin.vers]))
-    .filter(promise => !!promise);
+    .map((plugin) => validateVersion(file, plugin, origByVers[plugin.vers]))
+    .filter((promise) => !!promise);
   return Promise.all(validations);
 }
 
 changedFiles()
-  .then(files => {
+  .then((files) => {
     if (files.length === 0) {
       console.log('INFO: No changes to validate');
     }
-    files.map(file => {
+    files.map((file) => {
       Promise.all([readFileAsync(file, { encoding: 'utf8' }), readBaseFile(file)])
         .then(([data, orig]) => {
           console.log(`INFO: Reading ${file}`);
@@ -159,13 +161,13 @@ changedFiles()
           const origPlugin = JSON.parse(orig);
           return validate(file, plugin, origPlugin);
         })
-        .catch(e => {
+        .catch((e) => {
           console.error(`ERROR: Plugin ${file} validation failed: ${e.message}`);
           process.exit(1);
         });
     });
   })
-  .catch(e => {
-    console.error(`ERROR: Failed to list changed files`);
+  .catch((e) => {
+    console.error(`ERROR: Failed to list changed files`, e);
     process.exit(1);
   });

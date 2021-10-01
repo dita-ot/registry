@@ -14,7 +14,7 @@ const IGNORE = [
 ];
 
 async function changedFiles() {
-  const { stdout, stderr } = await exec(`git diff --name-only ${process.env.TRAVIS_BRANCH}...HEAD`);
+  const { stdout, stderr } = await exec(`git diff --name-only ${process.env.GITHUB_BASE_REF}...${process.env.GITHUB_HEAD_REF}`);
   return stdout
     .trim()
     .split(/\r?\n/)
@@ -23,7 +23,7 @@ async function changedFiles() {
 
 async function readBaseFile(file, opts) {
   try {
-    const { stdout, stderr } = await exec(`git show ${process.env.TRAVIS_BRANCH}:${file}`, { encoding: 'utf8' });
+    const { stdout, stderr } = await exec(`git show ${process.env.GITHUB_BASE_REF}:${file}`, { encoding: 'utf8' });
     return stdout;
   } catch (e) {
     return null;

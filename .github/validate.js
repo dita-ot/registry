@@ -7,6 +7,8 @@ const readFileAsync = util.promisify(fs.readFile);
 const semver = require('semver');
 
 const IGNORE = [
+  'package-lock.json',
+  'package.json',
   '.github/package-lock.json',
   '.github/package.json',
   '.netlify/package-lock.json',
@@ -14,22 +16,27 @@ const IGNORE = [
 ];
 
 async function changedFiles() {
-  const { stdout, stderr } = await exec(
-    `git diff --name-only ${process.env.BASE_SHA}...HEAD`
-  );
+  let stdout;
+  try {
+    const { out, err } = await exec(`diff -rq base head`);
+    stdout = out;
+  } catch (e) {
+    stdout = e.stdout;
+  }
   return stdout
     .trim()
     .split(/\r?\n/)
+    .filter((line) => line.endsWith('differ') || line.startsWith('Only'))
+    .map((line) => {
+      if (line.startsWith('Only in ')) {
+        return line.substring(line.indexOf(': ') + 2).trim();
+      } else if (line.endsWith(' differ')) {
+        return line.substring(line.indexOf('/') + 1, line.indexOf(' and ')).trim();
+      } else {
+        return line;
+      }
+    })
     .filter((file) => file.match(/.json$/) && !IGNORE.includes(file));
-}
-
-async function readBaseFile(file, opts) {
-  try {
-    const { stdout, stderr } = await exec(`git show ${process.env.BASE_SHA}:${file}`, { encoding: 'utf8' });
-    return stdout;
-  } catch (e) {
-    return null;
-  }
 }
 
 function arrayToMapByVersion(plugins) {
@@ -148,17 +155,31 @@ async function validate(file, plugins, origs) {
   return Promise.all(validations);
 }
 
+async function parseFile(file) {
+  try {
+    const data = await readFileAsync(file, { encoding: 'utf8' });
+    try {
+      return JSON.parse(data);
+    } catch (e) {
+      console.error(`ERROR: Failed to parse ${file}`, e);
+      throw e;
+    }
+  } catch (e) {
+    console.error(`INFO: Failed to read ${file}`);
+    return [];
+  }
+}
+
 changedFiles()
   .then((files) => {
     if (files.length === 0) {
       console.log('INFO: No changes to validate');
     }
+    console.log(files.join(', '));
     files.map((file) => {
-      Promise.all([readFileAsync(file, { encoding: 'utf8' }), readBaseFile(file)])
-        .then(([data, orig]) => {
+      Promise.all([parseFile(`head/${file}`), parseFile(`base/${file}`)])
+        .then(([plugin, origPlugin]) => {
           console.log(`INFO: Reading ${file}`);
-          const plugin = JSON.parse(data);
-          const origPlugin = JSON.parse(orig);
           return validate(file, plugin, origPlugin);
         })
         .catch((e) => {

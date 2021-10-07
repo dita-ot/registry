@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.oasis-open.dita.v2_0",
+    "description": "DITA 2.0 base grammar plug-in for DITA-OT.",
+    "keywords": ["DITA", "OASIS", "beta"],
+    "homepage": "https://github.com/oasis-tcs/dita/",
+    "vers": "2.0.0-20211007",
+    "license": "SEE LICENSE IN https://github.com/oasis-tcs/dita/blob/master/LICENSE.md",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita/releases/download/2.0.0-20211007/org.oasis-open.dita.v2_0.zip",
+    "cksum": "83a7ef733de9f86fc2988471af040583cba672a7fd3033e577209d89074c2990"
+  }
+]

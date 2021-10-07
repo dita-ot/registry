@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.oasis-open.dita.techcomm.v2_0",
+    "description": "DITA 2.0 Technical Communication grammar plug-in for DITA-OT.",
+    "keywords": ["DITA", "OASIS", "beta"],
+    "homepage": "https://github.com/oasis-tcs/dita-techcomm/",
+    "vers": "2.0.0-20211007",
+    "license": "SEE LICENSE IN https://github.com/oasis-tcs/dita-techcomm/blob/DITA-2.0/LICENSE.md",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/dita-ot/dita-techcomm/releases/download/2.0.0-20211007/org.oasis-open.dita.techcomm.v2_0.zip",
+    "cksum": "493c81c912c85e745d66cc2c76429234b2102050c1f663eb108a224d6feead9b"
+  }
+]

@@ -2,7 +2,11 @@
   {
     "name": "fox.jason.splash",
     "description": "Splash Screen Plug-in for DITA-OT.",
-    "keywords": ["splash-screen", "xkcd", "cats"],
+    "keywords": [
+      "splash-screen",
+      "xkcd",
+      "cats"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.splash",
     "vers": "1.0.2",
     "license": "Apache-2.0",
@@ -18,7 +22,11 @@
   {
     "name": "fox.jason.splash",
     "description": "Splash Screen Plug-in for DITA-OT.",
-    "keywords": ["splash-screen", "xkcd", "cats"],
+    "keywords": [
+      "splash-screen",
+      "xkcd",
+      "cats"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.splash",
     "vers": "2.0.0",
     "license": "Apache-2.0",
@@ -34,7 +42,11 @@
   {
     "name": "fox.jason.splash",
     "description": "Splash Screen Plug-in for DITA-OT.",
-    "keywords": ["splash-screen", "xkcd", "cats"],
+    "keywords": [
+      "splash-screen",
+      "xkcd",
+      "cats"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.splash",
     "vers": "2.1.0",
     "license": "Apache-2.0",
@@ -50,7 +62,11 @@
   {
     "name": "fox.jason.splash",
     "description": "Splash Screen Plug-in for DITA-OT.",
-    "keywords": ["splash-screen", "xkcd", "cats"],
+    "keywords": [
+      "splash-screen",
+      "xkcd",
+      "cats"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.splash",
     "vers": "2.2.0",
     "license": "Apache-2.0",
@@ -62,5 +78,25 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.splash/archive/v2.2.0.zip",
     "cksum": "185cbe02ced86b7a2943cf0096d6f233aff491df28a89dc0213aea6b63a68a7e"
+  },
+  {
+    "name": "fox.jason.splash",
+    "description": "Splash Screen Plug-in for DITA-OT.",
+    "keywords": [
+      "splash-screen",
+      "xkcd",
+      "cats"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.splash",
+    "vers": "2.2.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.splash/archive/v2.2.1.zip",
+    "cksum": "db9b5d4db559ea4a5af099ec3999bf700400484005f73afc3ee61f40b408003d"
   }
 ]

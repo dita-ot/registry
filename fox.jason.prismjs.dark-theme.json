@@ -2,7 +2,12 @@
   {
     "name": "fox.jason.prismjs.dark-theme",
     "description": "Extension of the DITA-OT Prism-JS plug-in to amend the look-and-feel of highlighted code. Offers the standard Dark Theme from Prism-JS.",
-    "keywords": ["prismjs", "code-highlighter", "syntax-highlighting", "css"],
+    "keywords": [
+      "prismjs",
+      "code-highlighter",
+      "syntax-highlighting",
+      "css"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.prismjs.dark-theme",
     "vers": "1.0.0",
     "license": "Apache-2.0",
@@ -26,7 +31,12 @@
   {
     "name": "fox.jason.prismjs.dark-theme",
     "description": "Extension of the DITA-OT Prism-JS plug-in to amend the look-and-feel of highlighted code. Offers the standard Dark Theme from Prism-JS.",
-    "keywords": ["prismjs", "code-highlighter", "syntax-highlighting", "css"],
+    "keywords": [
+      "prismjs",
+      "code-highlighter",
+      "syntax-highlighting",
+      "css"
+    ],
     "homepage": "https://jason-fox.github.io/fox.jason.prismjs.dark-theme",
     "vers": "1.0.0",
     "license": "Apache-2.0",
@@ -46,5 +56,34 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.prismjs.dark-theme/archive/v1.0.1.zip",
     "cksum": "befe437159c1762c0dd36838fa7f8c8d5e8bb468f8864caf3ce9e6e5ed7acd87"
+  },
+  {
+    "name": "fox.jason.prismjs.dark-theme",
+    "description": "Extension of the DITA-OT Prism-JS plug-in to amend the look-and-feel of highlighted code. Offers the standard Dark Theme from Prism-JS.",
+    "keywords": [
+      "prismjs",
+      "code-highlighter",
+      "syntax-highlighting",
+      "css"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.prismjs.dark-theme",
+    "vers": "1.0.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.0.3"
+      },
+      {
+        "name": "fox.jason.prismjs",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.prismjs.dark-theme/archive/v1.0.2.zip",
+    "cksum": "f35dd6e9ae5823348269141f9862e83c7f73bed9e81ded610a3f8d8f351640d8"
   }
 ]

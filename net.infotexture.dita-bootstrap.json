@@ -110,5 +110,21 @@
     ],
     "url": "https://github.com/infotexture/dita-bootstrap/archive/5.3.zip",
     "cksum": "b3fae75957c1be8d55551f111763e038bec55252cb367089aeea8689d7cddf2d"
+  },
+  {
+    "name": "net.infotexture.dita-bootstrap",
+    "description": "HTML5 output with a basic Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap",
+    "vers": "5.3.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.6.0"
+      }
+    ],
+    "url": "https://github.com/infotexture/dita-bootstrap/archive/5.3.1.zip",
+    "cksum": "b236c00e65a2895159f098318c96f7e042d2b64784587c1100d6c4f39df926b4"
   }
 ]

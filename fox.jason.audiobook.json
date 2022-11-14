@@ -103,5 +103,26 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.audiobook/archive/v1.3.1.zip",
     "cksum": "3057aa4e625c7f537381f8887d485bcebbfa033016534eaa9df6206e72bfcc1c"
+  },
+  {
+    "name": "fox.jason.audiobook",
+    "description": "Transforms DITA to speech in the form of an audiobook. It uses freely available Text-to-Speech cloud services to transform SSML files into MP3 audio files or a single m4a audiobook.",
+    "keywords": [
+      "speech-synthesis",
+      "audio-processing",
+      "audiobook",
+      "text-to-speech"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.audiobook",
+    "vers": "2.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.audiobook/archive/v2.0.0.zip",
+    "cksum": "c6f915ecb87c3921e1be620fd9273289a98d08eb0859b650850dbec8b353f6ec"
   }
 ]

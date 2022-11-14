@@ -119,7 +119,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.0.0"
+        "req": ">=4.0.0"
       }
     ],
     "url": "https://github.com/jason-fox/fox.jason.audiobook/archive/v2.0.0.zip",

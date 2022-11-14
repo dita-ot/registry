@@ -385,7 +385,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": ">=4.0.0"
       },
       {
         "name": "fox.jason.extend.css",

@@ -156,11 +156,11 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.0.0"
+        "req": ">=4.0.0"
       },
       {
         "name": "org.lwdita",
-        "req": ">=2.2.0"
+        "req": ">=3.3.0"
       }
     ],
     "url": "https://github.com/jason-fox/fox.jason.readthedocs/archive/v2.0.0.zip",

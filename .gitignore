@@ -1,2 +1,3 @@
 _site
-.netlify/build
+.netlify/build/*
+!.netlify/build/_headers

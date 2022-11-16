@@ -13,7 +13,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       }
     ],
     "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v1.0.0.zip",
@@ -33,7 +33,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       }
     ],
     "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v1.0.1.zip",
@@ -53,7 +53,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       }
     ],
     "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v1.0.2.zip",
@@ -73,7 +73,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "org.doctales.xmltask",
@@ -97,7 +97,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "org.doctales.xmltask",
@@ -125,7 +125,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "org.doctales.xmltask",
@@ -153,7 +153,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "org.doctales.xmltask",
@@ -181,7 +181,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "org.doctales.xmltask",
@@ -209,7 +209,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "org.doctales.xmltask",
@@ -237,7 +237,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "org.doctales.xmltask",
@@ -265,7 +265,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "fox.jason.extend.css",
@@ -289,7 +289,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "fox.jason.extend.css",
@@ -313,7 +313,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "fox.jason.extend.css",
@@ -337,7 +337,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "fox.jason.extend.css",
@@ -361,7 +361,7 @@
     "deps": [
       {
         "name": "org.dita.base",
-        "req": ">=3.1.0"
+        "req": "3.1.0 - 3.7.4"
       },
       {
         "name": "fox.jason.extend.css",
@@ -370,5 +370,29 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v3.3.0.zip",
     "cksum": "6b186d3001c21c0d3b8933f47142cbdb19c034fbb1b3768bb60f89f2a60878e1"
+  },
+  {
+    "name": "fox.jason.prismjs",
+    "description": "An integration of Prism-JS into the DITA Open Toolkit engine, enabling static HTML and PDF syntax highlighting.",
+    "keywords": [
+      "prismjs",
+      "code-highlighter",
+      "syntax-highlighting"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "vers": "4.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=4.0.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.2.1"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v4.0.0.zip",
+    "cksum": "6ef34d276d05656c0373a69e33d724d0b0494d2f49c2a23b4be9f4ed762cc855"
   }
 ]

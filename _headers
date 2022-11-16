@@ -1,0 +1,3 @@
+# Fix CORS for https://www.dita-ot.org/plugins
+/*
+  Access-Control-Allow-Origin: https://www.dita-ot.org

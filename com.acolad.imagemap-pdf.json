@@ -1,0 +1,50 @@
+[
+  {
+    "name": "com.acolad.imagemap-pdf",
+    "description": "DITA-OT plugin to manage imagemap element in PDF.",
+    "keywords": ["Image map","PDF"],
+    "homepage": "https://github.com/acolad-digital/com.acolad.imagemap-pdf/",
+    "vers": "1.2.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/acolad-digital/com.acolad.imagemap-pdf/archive/refs/tags/v1.2.0.zip",
+    "cksum": "E802E45533D04780A68160B43F774FD665BAF490F976C2925BA4490C162E6F5E"
+  },
+  {
+    "name": "com.acolad.imagemap-pdf",
+    "description": "DITA-OT plugin to manage imagemap element in PDF.",
+    "keywords": ["Image map","PDF"],
+    "homepage": "https://github.com/acolad-digital/com.acolad.imagemap-pdf/",
+    "vers": "1.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/acolad-digital/com.acolad.imagemap-pdf/archive/refs/tags/v1.1.0.zip",
+    "cksum": "9D058782D54FB4505932A5C365C17106387211FA5CBAA538C082B36E689C785E"
+  },
+  {
+    "name": "com.acolad.imagemap-pdf",
+    "description": "DITA-OT plugin to manage imagemap element in PDF.",
+    "keywords": ["Image map","PDF"],
+    "homepage": "https://github.com/acolad-digital/com.acolad.imagemap-pdf/",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/acolad-digital/com.acolad.imagemap-pdf/archive/refs/tags/v1.0.0.zip",
+    "cksum": "140F752A5AE98FCAB65518A43CDC66D2677EB448708065BB287BF8B89E3E969F"
+  }
+]

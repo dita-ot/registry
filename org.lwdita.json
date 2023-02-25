@@ -254,5 +254,21 @@
     ],
     "url": "https://github.com/jelovirt/org.lwdita/releases/download/3.4.0/org.lwdita-3.4.0.zip",
     "cksum": "37d58ad15a1015dfc6db039d5d2b5d10e5ed92a194f139bda61f3bfc68f2adcb"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": ["Markdown", "LwDITA", "MDITA", "HDITA"],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "4.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/4.0.0/org.lwdita-4.0.0.zip",
+    "cksum": "1d8e729ec30c28c88994b873da888ecff609d60e0d39225993a29e9b5277efde"
   }
 ]

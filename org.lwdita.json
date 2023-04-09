@@ -2,7 +2,12 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA", "default"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA",
+      "default"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.0.6",
     "license": "Apache-2.0",
@@ -18,7 +23,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.0.7",
     "license": "Apache-2.0",
@@ -34,7 +43,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.1.0",
     "license": "Apache-2.0",
@@ -50,7 +63,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.2.0",
     "license": "Apache-2.0",
@@ -66,7 +83,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.2.2",
     "license": "Apache-2.0",
@@ -82,7 +103,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.3.0",
     "license": "Apache-2.0",
@@ -98,7 +123,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.3.1",
     "license": "Apache-2.0",
@@ -114,7 +143,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.3.2",
     "license": "Apache-2.0",
@@ -130,7 +163,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.4.0",
     "license": "Apache-2.0",
@@ -146,7 +183,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.4.1",
     "license": "Apache-2.0",
@@ -162,7 +203,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "2.5.0",
     "license": "Apache-2.0",
@@ -178,7 +223,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "3.0.0",
     "license": "Apache-2.0",
@@ -194,7 +243,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "3.1.0",
     "license": "Apache-2.0",
@@ -210,7 +263,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "3.2.0",
     "license": "Apache-2.0",
@@ -226,7 +283,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "3.3.0",
     "license": "Apache-2.0",
@@ -242,7 +303,11 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "3.4.0",
     "license": "Apache-2.0",
@@ -258,7 +323,12 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["Markdown", "LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "Markdown",
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "4.0.0",
     "license": "Apache-2.0",
@@ -274,7 +344,12 @@
   {
     "name": "org.lwdita",
     "description": "Lightweight DITA for DITA-OT",
-    "keywords": ["Markdown", "LwDITA", "MDITA", "HDITA"],
+    "keywords": [
+      "Markdown",
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
     "homepage": "http://www.lwdita.org/",
     "vers": "5.0.0",
     "license": "Apache-2.0",
@@ -282,9 +357,30 @@
       {
         "name": "org.dita.base",
         "req": ">=3.4.0"
-     }
+      }
     ],
     "url": "https://github.com/jelovirt/org.lwdita/releases/download/5.0.0/org.lwdita-5.0.0.zip",
     "cksum": "1853d70af6ca6d7503c809dca7cdfdf211d402fac9a794dcad2e1e60d18a29c7"
-   }
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "Markdown",
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "5.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/5.1.0/org.lwdita-5.1.0.zip",
+    "cksum": "c6c2302f09709072fc799dbd332dcaf911ecef592bb815cd6877d7474274b819"
+  }
 ]

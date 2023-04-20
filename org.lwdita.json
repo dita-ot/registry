@@ -1,0 +1,428 @@
+[
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA",
+      "default"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.0.6",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.2.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.0.6/org.lwdita-2.0.6.zip",
+    "cksum": "08af58ebefa56bfffc06333351feecaf453491b68cd4d0c3562199b0e43adb80"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.0.7",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.2.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.0.7/org.lwdita-2.0.7.zip",
+    "cksum": "1c2c594a62a19ea3d684e8d8bc6dc7f39a39643ebc15ebdef8d2e93f5b2a1250"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.2.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.1.0/org.lwdita-2.1.0.zip",
+    "cksum": "48d5fe81ed5941b40fe9b276dbf1ea10cda66c06a205789e0c264b5257ceb1ff"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.2.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.2.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.2.0/org.lwdita-2.2.0.zip",
+    "cksum": "2517bdddfadd551d2a2a08ce530a2207f5b76f8f73d06e1a3cba9e9f6a63da6f"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.2.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.2.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.2.2/org.lwdita-2.2.2.zip",
+    "cksum": "bb8bf4583b39356e03f02199a7476b77dfba798da1e9597a27e43483fc8df199"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.3.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.2.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.3.0/org.lwdita-2.3.0.zip",
+    "cksum": "eb8781afe7a1f617068b9758de7e13e98c8de75ad78db26070824429d88668b1"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.3.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.2.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.3.1/org.lwdita-2.3.1.zip",
+    "cksum": "bb8d8e69a804e0746b83091ca73384ab6de21484872a36bba8158fe68331e963"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.3.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.2.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.3.2/org.lwdita-2.3.2.zip",
+    "cksum": "a0198286aa54b2fd2b6b67c0c122a94eb2894530144e267a8ecc4895b898af15"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.4.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.4.0/org.lwdita-2.4.0.zip",
+    "cksum": "ad724e08d95f5bce8ba946c76b52dba742b5627c0039d99477a94477fe206bc1"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.4.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.4.1/org.lwdita-2.4.1.zip",
+    "cksum": "09047d5630b32b855daf93ebe1629a3030484fbc615823edcf7df67bb64b6c75"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "2.5.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=2.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/2.5.0/org.lwdita-2.5.0.zip",
+    "cksum": "3621a24e8dfca1f7682178b2cf6a75e656b29a645c3b505ea079d4c0be5b1c70"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "3.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/3.0.0/org.lwdita-3.0.0.zip",
+    "cksum": "c4bc304c70e26a5638dda086596df5ff3398e3f3ce820034bc2ab20dbb91b51a"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "3.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/3.1.0/org.lwdita-3.1.0.zip",
+    "cksum": "9e3625d1dd6dd377a0c320d52dedb93ebdccc1984107a5195f5120f6133ac509"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "3.2.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/3.2.0/org.lwdita-3.2.0.zip",
+    "cksum": "ec837250dd30c5183bc91f308e29b2d39416345efd2cfa69cb448921a45bf3d5"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "3.3.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/3.3.0/org.lwdita-3.3.0.zip",
+    "cksum": "175ab2e3cb3fdf5701bbde8eafec2a28cdc903792a3e8ee19564c416a25457da"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "3.4.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/3.4.0/org.lwdita-3.4.0.zip",
+    "cksum": "37d58ad15a1015dfc6db039d5d2b5d10e5ed92a194f139bda61f3bfc68f2adcb"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "Markdown",
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "4.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/4.0.0/org.lwdita-4.0.0.zip",
+    "cksum": "1d8e729ec30c28c88994b873da888ecff609d60e0d39225993a29e9b5277efde"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "Markdown",
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "5.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/5.0.0/org.lwdita-5.0.0.zip",
+    "cksum": "1853d70af6ca6d7503c809dca7cdfdf211d402fac9a794dcad2e1e60d18a29c7"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "Markdown",
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "5.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/5.1.0/org.lwdita-5.1.0.zip",
+    "cksum": "c6c2302f09709072fc799dbd332dcaf911ecef592bb815cd6877d7474274b819"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "Markdown",
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "5.2.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/5.2.1/org.lwdita-5.2.1.zip",
+    "cksum": "56491afa88fc03c908ea3417468996bf8a0fbc03a020dc7eea69eedfe138b96b"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "Markdown",
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "5.3.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/5.3.0/org.lwdita-5.3.0.zip",
+    "cksum": "523c38231a08d2689144af974a4775d53d9c6488ae8d5634cb4ca02c891d13f4"
+  }
+]

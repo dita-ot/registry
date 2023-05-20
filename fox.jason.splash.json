@@ -98,5 +98,27 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.splash/archive/v2.2.1.zip",
     "cksum": "db9b5d4db559ea4a5af099ec3999bf700400484005f73afc3ee61f40b408003d"
+  },
+  {
+    "name": "fox.jason.splash",
+    "description": "Splash Screen Plug-in for DITA-OT.",
+    "keywords": [
+      "splash-screen",
+      "xkcd",
+      "cats",
+      "anime",
+      "picsum"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.splash",
+    "vers": "3.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.splash/archive/v3.0.0.zip",
+    "cksum": "2465418ba3f5b97e20f2f2043852ea66d98249738169a0f45c4d15fa43c5b433"
   }
 ]

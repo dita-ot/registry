@@ -1,9 +1,9 @@
 [
   {
-    "name": "org.doctales.xmltask",
+    "name": "org.jung.xmltask",
     "description": "Utility plugin which provides the OOPS Consultancy xmltask library.",
     "keywords": ["Ant"],
-    "homepage": "https://github.com/doctales/org.doctales.xmltask/",
+    "homepage": "https://github.com/stefan-jung/org.jung.xmltask/",
     "vers": "1.16.1",
     "license": "Apache-1.1",
     "deps": [
@@ -12,7 +12,7 @@
         "req": ">=2.3.0"
       }
     ],
-    "url": "https://github.com/doctales/org.doctales.xmltask/archive/1.16.1.zip",
-    "cksum": "37c6508eeaabc09b87a44a9e50d6ac854da21b2df41508dfc21ed4db7b756469"
+    "url": "https://github.com/stefan-jung/org.jung.xmltask/archive/1.16.1.zip",
+    "cksum": "97B632928B74C37C6B55A45D9D26A636FFB355371286A66DE54923FEA134F866"
   }
 ]

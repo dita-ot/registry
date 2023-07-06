@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.jung.reveal",
+    "description": "DITA-OT plugin for transforming DITA to reveal.js based web presentations.",
+    "keywords": ["reveal.js"],
+    "homepage": "https://github.com/stefan-jung/org.jung.reveal/",
+    "vers": "4.5.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/stefan-jung/org.jung.reveal/archive/refs/tags/4.5.0.zip",
+    "cksum": "CFC61E3C6E5F80B656B26AA329804E408945F7462B79C22990BBDBDAD470C3DA"
+  }
+]

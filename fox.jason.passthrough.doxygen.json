@@ -26,5 +26,33 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.passthrough.doxygen/archive/v1.2.0.zip",
     "cksum": "d0f35dae3e5382f51e301e25ecb5b258a6a460318d840ba2ca9b36075a85056f"
+  },
+  {
+    "name": "fox.jason.passthrough.doxygen",
+    "description": "Creates DITA-based API documentation from Doxygen XML sources.",
+    "keywords": [
+      "doxygen",
+      "xml",
+      "auto-generated text"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.doxygen",
+    "vers": "1.3.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3.0"
+      },
+      {
+        "name": "org.doctales.xmltask",
+        "req": ">=1.16.1"
+      },
+      {
+        "name": "fox.jason.passthrough",
+        "req": ">=2.2.1"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.passthrough.doxygen/archive/v1.3.0.zip",
+    "cksum": "def1263bc7c2d1ee0d734bcdebdd040f2211ed81f02ad8611cd0970b980e7a02"
   }
 ]

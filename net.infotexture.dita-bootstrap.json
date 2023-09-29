@@ -169,7 +169,7 @@
       },
       {
         "name": "fox.jason.extend.css",
-        "req": ">=1.0.0"
+        "req": ">=1.2.2"
       }
     ],
     "url": "https://github.com/infotexture/dita-bootstrap/archive/5.3.3.zip",

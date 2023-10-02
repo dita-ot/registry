@@ -1,0 +1,22 @@
+[
+  {
+    "name": "net.infotexture.dita-bootstrap.lunr",
+    "description": "Lunr.js search for DITA Bootstrap",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Lunr", "Search"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap/search-box.html",
+    "vers": "5.3.3",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "net.infotexture.dita-bootstrap",
+        "req": ">=5.3.3"
+      }
+    ],
+    "url": "https://github.com/infotexture/dita-bootstrap.lunr/archive/5.3.3.zip",
+    "cksum": "42a820bcae1bf9f903028b928c9f2fea5c5243da07d72f75f4db076ac3f13ce0"
+  }
+]

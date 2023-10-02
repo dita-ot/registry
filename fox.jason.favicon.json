@@ -17,5 +17,24 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.favicon/archive/v1.0.0.zip",
     "cksum": "494cf0d2d4efb4d254873bec4360e67c7fc1c816e95baee4bd350b3ec5b77867"
+  },
+  {
+    "name": "fox.jason.favicon",
+    "description": "Adds a favicon to DITA HTML output.",
+    "keywords": [
+      "html",
+      "css"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.favicon",
+    "vers": "1.0.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.favicon/archive/v1.0.1.zip",
+    "cksum": "4ae086ce039f18df392601f27cd6dc8b379544dc1d6e882a9c56d983c836bd4d"
   }
 ]

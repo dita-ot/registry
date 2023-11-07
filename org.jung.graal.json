@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.jung.graal",
+    "description": "Utility plugin which provides the Graal VM. The Graal VM is needed to execute JavaScript in Apache Ant.",
+    "keywords": ["Ant"],
+    "homepage": "https://github.com/stefan-jung/org.jung.graal/",
+    "vers": "23.0.2",
+    "license": "GPL2",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=1.0.0"
+      }
+    ],
+    "url": "https://github.com/stefan-jung/org.jung.graal/archive/refs/tags/23.0.2.zip",
+    "cksum": "129b1b6c37d3377c787477f5fe712c39a0aa7441649512805cc54a59c140b6ea"
+  }
+]

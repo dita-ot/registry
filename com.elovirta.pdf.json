@@ -93,5 +93,24 @@
     ],
     "url": "https://github.com/jelovirt/pdf-generator/releases/download/0.7.1/com.elovirta.pdf-0.7.1.zip",
     "cksum": "b5788296cb66b38ae66f1e9ef74094619e64924cf4c9ac808ba89253c9644369"
+  },
+  {
+    "name": "com.elovirta.pdf",
+    "description": "Template support for PDF2",
+    "keywords": [
+      "PDF",
+      "theme"
+    ],
+    "homepage": "https://github.com/jelovirt/pdf-generator/",
+    "vers": "0.7.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.6.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/pdf-generator/releases/download/0.7.2/com.elovirta.pdf-0.7.2.zip",
+    "cksum": "c59df242e3709b8ccb00d71cf2095b0c255b26868d5fdbe5b7c60315d8689984"
   }
 ]

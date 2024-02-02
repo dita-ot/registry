@@ -30,5 +30,21 @@
     ],
     "url": "https://github.com/dita-ot/org.dita.normalize/archive/refs/tags/1.1.0.zip",
     "cksum": "ae6d6855cdf3771fe76e6b85870214ee0c7e9c447ef87ab52e1e76b9b4f1d47e"
+  },
+  {
+    "name": "org.dita.normalize",
+    "description": "The org.dita.normalize plugin extends DITA Open Toolkit with a dita transformation type that generates normalized topics and maps from DITA input.",
+    "keywords": ["DITA", "default"],
+    "homepage": "https://github.com/dita-ot/org.dita.normalize/",
+    "vers": "2.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=4.2.0"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.normalize/archive/refs/tags/2.0.zip",
+    "cksum": "24a5c9bbd4da1095541133ab36e2d946fcef403eafd45567ce4d1a53717050b7"
   }
 ]

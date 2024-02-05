@@ -18,5 +18,25 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.open-graph/archive/v1.0.0.zip",
     "cksum": "66ab41ade08594dc593940b7b2989962f5e973204085a7d79ba293a42739f04c"
+  },
+  {
+    "name": "fox.jason.open-graph",
+    "description": "Adds Open-Graph social media metadata to DITA HTML output.",
+    "keywords": [
+      "twitter",
+      "facebook",
+      "open-graph"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.open-graph",
+    "vers": "1.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.open-graph/archive/v1.1.0.zip",
+    "cksum": "9ce9a46848b6a1e3a60b988adddd785939f9eabe1265d79957a291f03002a829"
   }
 ]

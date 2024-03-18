@@ -1,0 +1,26 @@
+[
+  {
+    "name": "org.iirds.dita.package",
+    "description": "Generates iiRDS packages with HTML content",
+    "keywords": [
+      "iiRDS",
+      "intelligent information Request and Delivery Standard"
+    ],
+    "homepage": "https://www.iirds.org/tools/dita-plugin/",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.3"
+      },
+      {
+        "name": "org.dita.html5",
+        "req": ">=3.7.3"
+      }
+      
+    ],
+    "url": "https://www.iirds.org/fileadmin/downloads/DITA/org.iirds.dita.package-1.0.0.zip",
+    "cksum": "567574EE8BBF7471511BBCC3E73940477D9BD914ECA0FE0E39F8651E5CDD7938"
+  }
+ ]

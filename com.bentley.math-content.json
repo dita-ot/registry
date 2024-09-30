@@ -1,0 +1,34 @@
+[
+    {
+     "name": "com.bentley.math-content",
+     "description": "",
+     "keywords": [
+         "mathml",
+         "mathjax",
+         "equations"
+        ],
+     "homepage": "https://github.com/super-structure/com.bentley.math-content",
+     "vers": "1.0.1",
+     "license": "MIT",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1.0"
+      },
+      {
+          "name": "org.dita.pdf2",
+          "req": ">=4.0.1"
+      },
+      {
+          "name": "org.dita.html5",
+          "req": ">=4.0.1"
+      },
+      {
+          "name": "fox.jason.extend.css",
+          "req": ">=1.2.1"
+      }
+    ],
+    "url": "https://github.com/super-structure/com.bentley.math-content/releases/download/v1.0.1/com.bentley.math-content-1.0.1.zip",
+    "cksum": "EE35C5297EF589158CF1E688878CFB6FDC4E69915649A77D9498B671EAA62CFB"
+     }
+]

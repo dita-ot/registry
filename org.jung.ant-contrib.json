@@ -1,6 +1,6 @@
 [
   {
-    "name": "org.doctales.ant-contrib",
+    "name": "org.jung.ant-contrib",
     "description": "Utility plugin which provides the ant-contrib library.",
     "keywords": ["Ant"],
     "homepage": "https://github.com/doctales/org.doctales.ant-contrib/",
@@ -12,7 +12,7 @@
         "req": ">=1.0.0"
       }
     ],
-    "url": "https://github.com/doctales/org.doctales.ant-contrib/archive/1.0.beta3.zip",
-    "cksum": "cbfeafdbb2edd7d1d349cfd1cfcf8f6b66a7fb88808e159ff5a3cec233a17949"
+    "url": "https://github.com/stefan-jung/org.jung.ant-contrib/archive/refs/tags/1.0.beta3.zip",
+    "cksum": "d9d91cb0205265211f25a43a9c449d15d460021f7ea86a952a0191c91a581f49"
   }
 ]

@@ -3,7 +3,7 @@
     "name": "org.jung.ant-contrib",
     "description": "Utility plugin which provides the ant-contrib library.",
     "keywords": ["Ant"],
-    "homepage": "https://github.com/doctales/org.doctales.ant-contrib/",
+    "homepage": "https://stefan-jung.org/plugins/ant-contrib",
     "vers": "1.0.0-beta3",
     "license": "Apache-1.1",
     "deps": [

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.jung.schematron",
+    "description": "Adds Schematron validation support to the DITA-OT.",
+    "keywords": ["Schematron"],
+    "homepage": "https://github.com/stefan-jung/org.jung.schematron/",
+    "vers": "0.4.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/stefan-jung/org.jung.schematron/archive/refs/tags/0.4.zip",
+    "cksum": "50ed02474e21ba0d5b0d60efea00a82d9b8c15cce73601eebae318a4731f966e"
+  }
+]

@@ -18,5 +18,21 @@
     ],
     "url": "https://github.com/dita-ot/org.dita.index/releases/download/1.0.0/org.dita.index-1.0.0.zip",
     "cksum": "f9daed35ac70e2bc9f06e0d28a2d0d628077fc352cd3fad29289607f5ae87f69"
+  },
+  {
+    "name": "org.dita.index",
+    "description": "Index processor for DITA-OT",
+    "keywords": ["index", "pdf", "default"],
+    "homepage": "https://github.com/dita-ot/org.dita.index/",
+    "vers": "2.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=4.0.0"
+      }
+    ],
+    "url": "https://github.com/dita-ot/org.dita.index/releases/download/2.0.0/org.dita.index-2.0.0.zip",
+    "cksum": "2249215e9e887ca1578917baa5e01e350d0665c371a192a5aa1d84af5d0cf05e"
   }
 ]

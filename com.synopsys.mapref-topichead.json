@@ -20,5 +20,27 @@
     ],
     "url": "https://github.com/chrispy-snps/DITA-mapref-topichead/releases/download/1.0.0/com.synopsys.mapref-topichead-1.0.0.zip",
     "cksum": "6ce413c3d7431d1bbfc4a957c1dcb71f6df171c1ba94095a0504da93c379b3e1"
+  },
+  {
+    "name": "com.synopsys.mapref-topichead",
+    "description": "Create <topichead> navigation hierarchy from submap titles instead of discarding them.",
+    "keywords": [
+      "mapref",
+      "navigation",
+      "submaps",
+      "titles",
+      "topichead"
+    ],
+    "homepage": "https://github.com/chrispy-snps/DITA-mapref-topichead/",
+    "vers": "1.1.0",
+    "license": "GPL-3.0-or-later",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      }
+    ],
+    "url": "https://github.com/chrispy-snps/DITA-mapref-topichead/releases/download/1.1.0/com.synopsys.mapref-topichead-1.1.0.zip",
+    "cksum": "a1b36832444cf14a85b3d0030a2367a1bca236746b3fa0994fbf55f78ed56cdd"
   }
 ]

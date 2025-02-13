@@ -571,5 +571,26 @@
     ],
     "url": "https://github.com/jelovirt/org.lwdita/releases/download/5.9.0/org.lwdita-5.9.0.zip",
     "cksum": "00f95795eadda2216a1dd7fd6891c8bd135c1b8b47bbd7b00d7ede2d65eab670"
+  },
+  {
+    "name": "org.lwdita",
+    "description": "Lightweight DITA for DITA-OT",
+    "keywords": [
+      "Markdown",
+      "LwDITA",
+      "MDITA",
+      "HDITA"
+    ],
+    "homepage": "http://www.lwdita.org/",
+    "vers": "5.9.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/jelovirt/org.lwdita/releases/download/5.9.1/org.lwdita-5.9.1.zip",
+    "cksum": "6c343f3ddfb9c5eb97ca1107c14f33784592ef6034326511ffc8b663e680d572"
   }
 ]

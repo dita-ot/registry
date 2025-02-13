@@ -38,5 +38,25 @@
     ],
     "url": "https://github.com/infotexture/dita-bootstrap.sass/archive/5.3.4.zip",
     "cksum": "24b802fbb887a0bb5809e9d8e532d78462570baca88244cc9d3c770af89860cb"
+  },
+  {
+    "name": "net.infotexture.dita-bootstrap.sass",
+    "description": "Sass theme customization for DITA Bootstrap 5.3.5",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Sass", "Themes"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap/sass.html",
+    "vers": "5.3.5",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "net.infotexture.dita-bootstrap",
+        "req": ">=5.3.5"
+      }
+    ],
+    "url": "https://github.com/infotexture/dita-bootstrap.sass/archive/5.3.5.zip",
+    "cksum": "70e34ab4d3178e75e2eae1522a39c0d162f0cf2ca8e82718d0e4cbffec54f229"
   }
 ]

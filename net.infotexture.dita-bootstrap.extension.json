@@ -1,8 +1,8 @@
 [
   {
     "name": "net.infotexture.dita-bootstrap.extension",
-    "description": "Bootstrap Extensions 5.3.0 for DITA Bootstrap 5.3.4",
-    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Bootstrap Extensions"],
+    "description": "Bootstrap extension 5.3.0 for DITA Bootstrap 5.3.4",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Bootstrap extension"],
     "homepage": "https://infotexture.github.io/dita-bootstrap/search-box.html",
     "vers": "5.3.0",
     "license": "Apache-2.0",
@@ -18,5 +18,25 @@
     ],
     "url": "https://github.com/infotexture/dita-bootstrap.extension/archive/5.3.0.zip",
     "cksum": "18f299849bbe93ff342abefb41ea007395c451e9023f204eda486d73be02d67d"
+  },
+  {
+    "name": "net.infotexture.dita-bootstrap.extension",
+    "description": "Bootstrap extension 5.3.1 for DITA Bootstrap 5.3.5",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Bootstrap extension"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap/search-box.html",
+    "vers": "5.3.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "net.infotexture.dita-bootstrap",
+        "req": ">=5.3.5"
+      }
+    ],
+    "url": "https://github.com/infotexture/dita-bootstrap.extension/archive/5.3.1.zip",
+    "cksum": "73cc3f218cc567c586660dcce59a784c68d2838508be500abb0a25c740c62cf0"
   }
 ]

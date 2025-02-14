@@ -1,0 +1,22 @@
+[
+  {
+    "name": "net.infotexture.dita-bootstrap.table",
+    "description": "Bootstrap Table 1.22.4 for DITA Bootstrap 5.3.5",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Bootstrap Table"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap/bootstrap-table.html",
+    "vers": "1.22.4",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "net.infotexture.dita-bootstrap",
+        "req": ">=5.3.5"
+      }
+    ],
+    "url": "https://github.com/infotexture/dita-bootstrap.table/archive/1.22.4.zip",
+    "cksum": "da381179adae1859bb88324c5dbab152b9f37eef7dca2cf153d9cef7db5e2084"
+  }
+]

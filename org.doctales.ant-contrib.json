@@ -1,3 +1,5 @@
-{
-  "alias": "org.jung.ant-contrib"
-}
+[
+  {
+    "alias": "org.jung.ant-contrib"
+  }
+]

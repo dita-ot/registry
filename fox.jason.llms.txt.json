@@ -1,0 +1,23 @@
+[
+  {
+    "name": "fox.jason.llms.txt",
+    "description": "Output files suitable for use with Large Language Models, following the /llms.txt specification.",
+    "keywords": [
+      "LLM",
+      "AI",
+      "Large Language Models",
+      "css"
+    ],
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/llms-txt/",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.llms.txt/archive/v1.0.0.zip",
+    "cksum": "1684b2fbdc3e8f145ef0a2fc92d5f873ce3a1e12e907435b3a64cdeffffc2f7e"
+  }
+]

@@ -3,8 +3,7 @@
     "name": "fox.jason.favicon",
     "description": "Adds a favicon to DITA HTML output.",
     "keywords": [
-      "html",
-      "css"
+      "html"
     ],
     "homepage": "https://jason-fox.github.io/fox.jason.favicon",
     "vers": "1.0.0",
@@ -22,8 +21,7 @@
     "name": "fox.jason.favicon",
     "description": "Adds a favicon to DITA HTML output.",
     "keywords": [
-      "html",
-      "css"
+      "html"
     ],
     "homepage": "https://jason-fox.github.io/fox.jason.favicon",
     "vers": "1.0.1",
@@ -41,8 +39,7 @@
     "name": "fox.jason.favicon",
     "description": "Adds a favicon to DITA HTML output.",
     "keywords": [
-      "html",
-      "css"
+      "html"
     ],
     "homepage": "https://jason-fox.github.io/fox.jason.favicon",
     "vers": "1.1.0",

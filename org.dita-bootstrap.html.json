@@ -1,0 +1,278 @@
+[
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "HTML5 output with a basic Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Responsive"],
+    "homepage": "https://github.com/infotexture/dita-bootstrap",
+    "vers": "3.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.1.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/3.1.zip",
+    "cksum": "5765f965947dae8f3b9c446ef16a975d20da536b6d48ddec0b9e8fc2961cba47"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "HTML5 output with a basic Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 4", "Responsive"],
+    "homepage": "https://github.com/infotexture/dita-bootstrap",
+    "vers": "3.2.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": "<=2.5.4"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/3.2.zip",
+    "cksum": "0d0d39a3ae01f6c21e81791a2eaf52bc1d1d171db9fb0609a56356ac5e27344b"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "HTML5 output with a basic Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 4", "Responsive"],
+    "homepage": "https://github.com/infotexture/dita-bootstrap",
+    "vers": "3.3.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.3.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/3.3.zip",
+    "cksum": "81114c0a2d73494fd41537063834cbf2002076271ef30d47c1f81e51ecbad5d1"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "HTML5 output with a basic Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 4", "Responsive"],
+    "homepage": "https://github.com/infotexture/dita-bootstrap",
+    "vers": "3.4.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/3.4.zip",
+    "cksum": "c7a2bbec298ee4bbb3d3c93a700fa241ab6aa163de3cfe570d21a7c9fe304084"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "HTML5 output with a basic Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 4", "Responsive"],
+    "homepage": "https://github.com/infotexture/dita-bootstrap",
+    "vers": "3.4.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.4.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/3.4.1.zip",
+    "cksum": "86065f2381c07dfa414d59d3a93ec5e1961d7fed86edaef48915d0aab8aee46e"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "HTML5 output with a basic Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 4", "Responsive"],
+    "homepage": "https://github.com/infotexture/dita-bootstrap",
+    "vers": "3.6.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.6.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/3.6.zip",
+    "cksum": "e27e802d22df4a3a0ebd8c09484e8811cc9394c0c49a2eb6c525d2a0d5cb1ceb"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "HTML5 output with a basic Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap",
+    "vers": "5.3.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.6.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.0.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/5.3.zip",
+    "cksum": "7da189cbc7da7d9514067fb355748fbeaa9c78aaf8548b2374cc33c80a198d8e"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "HTML5 output with a basic Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap",
+    "vers": "5.3.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.6.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.0.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/5.3.1.zip",
+    "cksum": "aee2024353c498b58e613161ce5afa208ba5800ff351e45c4ef204135e173bb5"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "HTML5 output with a basic Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap",
+    "vers": "5.3.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.0.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/5.3.2.zip",
+    "cksum": "346b70e0bfa8f7a15a2f998bb7610e0e722278ae4939535807f670f0a27c67c9"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "Styled HTML5 output with an extensible Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap",
+    "vers": "5.3.3",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.2.2"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/5.3.3.zip",
+    "cksum": "82d1903cd76698a5e80ca62e4ffaca0c8a811ded55f4604a1aba765cad48602b"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "Styled HTML5 output with an extensible Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap",
+    "vers": "5.3.4",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.3.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/5.3.4.zip",
+    "cksum": "6dac60cde15a079ea011577d8fef9357778810d07db55d8f26beda2eb95a56e9"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "Styled HTML5 output with an extensible Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap",
+    "vers": "5.3.5",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.3.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/5.3.5.zip",
+    "cksum": "d20ffed55118a8a830c6af0a3a25c661d0597d95c2dfdf33e6d20a140f5971f1"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "Styled HTML5 output with an extensible Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap",
+    "vers": "5.3.5.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.3.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/5.3.5.1.zip",
+    "cksum": "e6dc974e4992f9577033380bbcad4c42d477f2c44477f1c6b91b441507e08282"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "Styled HTML5 output with an extensible Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap",
+    "vers": "5.3.6",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.3.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/5.3.6.zip",
+    "cksum": "3dd75965be094bc9d3901da9821455af7e6a00e091fa6760771786e5c456be14"
+  },
+  {
+    "name": "org.dita-bootstrap.html",
+    "description": "Styled HTML5 output with an extensible Bootstrap template",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive"],
+    "homepage": "https://infotexture.github.io/dita-bootstrap",
+    "vers": "5.3.8",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.3.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.html/archive/5.3.8.zip",
+    "cksum": "26c603bd4d1673249df3655cae0867ceb063693337e33ef6ef61b2cd187a4933"
+  }
+]

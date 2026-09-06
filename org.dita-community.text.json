@@ -1,0 +1,16 @@
+[
+  {
+    "name": "org.dita-community.text",
+    "description": "Text output",
+    "keywords": [
+      "Text"
+    ],
+    "homepage": "https://github.com/dita-community/org.dita-community.text",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+    ],
+    "url": "https://github.com/dita-community/org.dita-community.text/archive/refs/tags/1.0.0.zip",
+    "cksum": "087797f5dac899cfd311fc0ebaf0adcc8858d92ce43bda60e7e9a86bb1528973"
+  }
+]

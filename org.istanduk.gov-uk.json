@@ -23,5 +23,30 @@
     ],
     "url": "https://github.com/iStandUK/govuk-dita-plugin/releases/download/v1.0.0/org.istanduk.gov-uk-1.0.0.zip",
     "cksum": "4717f56be2fd4efd541d2b4c54aab502a478c93f8d635b6c5dfccdee1b417e76"
+  },
+  {
+    "name": "org.istanduk.gov-uk",
+    "description": "Publishes DITA as a self-contained static website styled with the GOV.UK Design System: sidebar navigation and landing-page layouts, optional Pagefind search whose relevance follows the DITA, generated glossary and index, NHS and official GOV.UK branding modes, a print stylesheet and a whole-publication print document. Output is built to WCAG 2.2 AA and checked in CI.",
+    "keywords": [
+      "html5",
+      "html",
+      "gov.uk",
+      "design-system",
+      "static-site",
+      "search",
+      "print",
+      "accessibility"
+    ],
+    "homepage": "https://github.com/iStandUK/govuk-dita-plugin",
+    "vers": "1.0.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=4.4.1"
+      }
+    ],
+    "url": "https://github.com/iStandUK/govuk-dita-plugin/releases/download/v1.0.1/org.istanduk.gov-uk-1.0.1.zip",
+    "cksum": "51e3015e0361374bf3dfca3e911f18bc93a7b7d829078d9d0540aeab3951019c"
   }
 ]

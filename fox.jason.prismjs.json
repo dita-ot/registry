@@ -442,5 +442,29 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v4.2.0.zip",
     "cksum": "dad805af55684b298961ac235547baf82bd846208efbb96fbe0615dde70bce0f"
+  },
+  {
+    "name": "fox.jason.prismjs",
+    "description": "An integration of Prism-JS into the DITA Open Toolkit engine, enabling static HTML and PDF syntax highlighting.",
+    "keywords": [
+      "prismjs",
+      "code-highlighter",
+      "syntax-highlighting"
+    ],
+    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "vers": "4.3.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=4.0.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.3.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v4.3.0.zip",
+    "cksum": "7e4c0a90bba77e55c45a6ba6d09bbca9324d1a00768027c2c1f483abc762f8ae"
   }
 ]

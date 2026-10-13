@@ -3,7 +3,7 @@
     "name": "org.dita-bootstrap.table",
     "description": "Bootstrap Table 1.22.4 for DITA Bootstrap 5.3.5",
     "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Bootstrap Table"],
-    "homepage": "https://dita-bootstrap.github.io/bootstrap-table.html",
+    "homepage": "https://dita-bootstrap.org/html/bootstrap-table.html",
     "vers": "1.22.4",
     "license": "Apache-2.0",
     "deps": [
@@ -23,7 +23,7 @@
     "name": "org.dita-bootstrap.table",
     "description": "Bootstrap Table 1.25.0 for DITA Bootstrap 5.3.6",
     "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Bootstrap Table"],
-    "homepage": "https://dita-bootstrap.github.io/bootstrap-table.html",
+    "homepage": "https://dita-bootstrap.org/html/bootstrap-table.html",
     "vers": "1.25.0",
     "license": "Apache-2.0",
     "deps": [
@@ -38,5 +38,25 @@
     ],
     "url": "https://github.com/dita-bootstrap/dita-bootstrap.table/archive/1.25.0.zip",
     "cksum": "0c67d391f86e3d4386742a256be5d055dc9ac1b0e6fdba50a71e528a422a837d"
+  },
+  {
+    "name": "org.dita-bootstrap.table",
+    "description": "Bootstrap Table 1.27.3 for DITA Bootstrap 5.3.8",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Bootstrap Table"],
+    "homepage": "https://dita-bootstrap.org/html/bootstrap-table.html",
+    "vers": "1.27.3",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "org.dita-bootstrap.html",
+        "req": ">=5.3.9"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.table/archive/1.27.3.zip",
+    "cksum": "d82baebec452472f98e2ea8df0e05d95cdecba11dff7da75304d8def7216cd14"
   }
 ]

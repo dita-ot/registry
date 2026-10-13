@@ -3,7 +3,7 @@
     "name": "org.dita-bootstrap.sass",
     "description": "Sass theme customization for DITA Bootstrap 5.3.3",
     "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Sass", "Themes"],
-    "homepage": "https://dita-bootstrap.github.io/sass.html",
+    "homepage": "https://dita-bootstrap.org/html/sass.html",
     "vers": "5.3.3",
     "license": "Apache-2.0",
     "deps": [
@@ -23,7 +23,7 @@
     "name": "org.dita-bootstrap.sass",
     "description": "Sass theme customization for DITA Bootstrap 5.3.4",
     "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Sass", "Themes"],
-    "homepage": "https://dita-bootstrap.github.io/sass.html",
+    "homepage": "https://dita-bootstrap.org/html/sass.html",
     "vers": "5.3.4",
     "license": "Apache-2.0",
     "deps": [
@@ -43,7 +43,7 @@
     "name": "org.dita-bootstrap.sass",
     "description": "Sass theme customization for DITA Bootstrap 5.3.5",
     "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Sass", "Themes"],
-    "homepage": "https://dita-bootstrap.github.io/sass.html",
+    "homepage": "https://dita-bootstrap.org/html/sass.html",
     "vers": "5.3.5",
     "license": "Apache-2.0",
     "deps": [
@@ -58,5 +58,25 @@
     ],
     "url": "https://github.com/dita-bootstrap/dita-bootstrap.sass/archive/5.3.5.zip",
     "cksum": "70e34ab4d3178e75e2eae1522a39c0d162f0cf2ca8e82718d0e4cbffec54f229"
+  },
+  {
+    "name": "org.dita-bootstrap.sass",
+    "description": "Sass theme customization for DITA Bootstrap 5.3.8",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Sass", "Themes"],
+    "homepage": "https://dita-bootstrap.org/html/sass.html",
+    "vers": "5.3.9",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "org.dita-bootstrap.html",
+        "req": ">=5.3.9"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.sass/archive/5.3.9.zip",
+    "cksum": "7375e241726fd3e8dc9ab041916488d7ae44e9fb005cee00e9d2f48633d0bd5f"
   }
 ]

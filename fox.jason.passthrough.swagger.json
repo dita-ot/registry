@@ -7,7 +7,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.swagger",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/swagger",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -39,7 +39,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.swagger",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/swagger",
     "vers": "1.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -75,7 +75,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.swagger",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/swagger",
     "vers": "1.1.1",
     "license": "Apache-2.0",
     "deps": [
@@ -111,7 +111,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.swagger",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/swagger",
     "vers": "1.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -147,7 +147,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.swagger",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/swagger",
     "vers": "1.3.0",
     "license": "Apache-2.0",
     "deps": [
@@ -183,7 +183,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.swagger",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/swagger",
     "vers": "2.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -215,7 +215,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.swagger",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/swagger",
     "vers": "2.0.1",
     "license": "Apache-2.0",
     "deps": [
@@ -247,7 +247,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.swagger",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/swagger",
     "vers": "2.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -266,5 +266,33 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.passthrough.swagger/archive/v2.1.0.zip",
     "cksum": "363c9a63c48174ea26cee7d65b2d68c243a5ec99aaa9a88249d1792991d8c2eb"
+  },
+  {
+    "name": "fox.jason.passthrough.swagger",
+    "description": "DITA-OT Plug-in to automatically create REST API documentation from a Swagger definition",
+    "keywords": [
+      "swagger",
+      "REST",
+      "auto-generated text"
+    ],
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/swagger",
+    "vers": "2.1.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.3.0"
+      },
+      {
+        "name": "fox.jason.passthrough",
+        "req": ">=5.0.1"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.passthrough.swagger/archive/v2.1.1.zip",
+    "cksum": "cd6287babb314555be50878110a265f52e852230692c3a2026657f7185209a23"
   }
 ]

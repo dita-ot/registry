@@ -7,7 +7,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -27,7 +27,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "1.0.1",
     "license": "Apache-2.0",
     "deps": [
@@ -47,7 +47,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "1.0.2",
     "license": "Apache-2.0",
     "deps": [
@@ -67,7 +67,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "2.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -91,7 +91,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "2.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -119,7 +119,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "2.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -147,7 +147,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "3.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -175,7 +175,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "3.0.1",
     "license": "Apache-2.0",
     "deps": [
@@ -203,7 +203,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "3.0.2",
     "license": "Apache-2.0",
     "deps": [
@@ -231,7 +231,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "3.0.3",
     "license": "Apache-2.0",
     "deps": [
@@ -259,7 +259,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "3.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -283,7 +283,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "3.2.1",
     "license": "Apache-2.0",
     "deps": [
@@ -307,7 +307,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "3.2.2",
     "license": "Apache-2.0",
     "deps": [
@@ -331,7 +331,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "3.2.3",
     "license": "Apache-2.0",
     "deps": [
@@ -355,7 +355,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "3.3.0",
     "license": "Apache-2.0",
     "deps": [
@@ -379,7 +379,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "4.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -403,7 +403,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "4.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -427,7 +427,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "4.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -451,7 +451,7 @@
       "code-highlighter",
       "syntax-highlighting"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.prismjs",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
     "vers": "4.3.0",
     "license": "Apache-2.0",
     "deps": [
@@ -466,5 +466,29 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v4.3.0.zip",
     "cksum": "7e4c0a90bba77e55c45a6ba6d09bbca9324d1a00768027c2c1f483abc762f8ae"
+  },
+  {
+    "name": "fox.jason.prismjs",
+    "description": "An integration of Prism-JS into the DITA Open Toolkit engine, enabling static HTML and PDF syntax highlighting.",
+    "keywords": [
+      "prismjs",
+      "code-highlighter",
+      "syntax-highlighting"
+    ],
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/prismjs",
+    "vers": "4.3.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=4.0.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.3.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.prismjs/archive/v4.3.1.zip",
+    "cksum": "7388ab52f5c118f880bd7239a5b4dd6e8f69d48e96dedd9f807e230c2c023449"
   }
 ]

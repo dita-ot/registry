@@ -7,7 +7,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/postman",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -39,7 +39,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/postman",
     "vers": "1.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -79,7 +79,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/postman",
     "vers": "1.1.1",
     "license": "Apache-2.0",
     "deps": [
@@ -119,7 +119,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/postman",
     "vers": "1.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -159,7 +159,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/postman",
     "vers": "2.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -195,7 +195,7 @@
       "REST",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.postman",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/postman",
     "vers": "2.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -214,5 +214,33 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.passthrough.postman/archive/v2.1.0.zip",
     "cksum": "0ed754d083cb0f516e49b8c7e58ae2208cb14f83d116b04bd91770219c3d77ff"
+  },
+  {
+    "name": "fox.jason.passthrough.postman",
+    "description": "DITA-OT Plug-in to automatically create REST API documentation from a Postman Collection",
+    "keywords": [
+      "postman",
+      "REST",
+      "auto-generated text"
+    ],
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/postman",
+    "vers": "2.1.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.3.0"
+      },
+      {
+        "name": "fox.jason.passthrough",
+        "req": ">=5.0.1"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.passthrough.postman/archive/v2.1.1.zip",
+    "cksum": "a83e3fd8d4491f9528d666b98a0cff83b3b90f8568e302a562a56ae56d9bf971"
   }
 ]

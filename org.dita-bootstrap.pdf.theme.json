@@ -1,0 +1,22 @@
+[
+  {
+    "name": "org.dita-bootstrap.pdf.theme",
+    "description": "Bootswatch aligned PDF themes for DITA Bootstrap 5.3",
+    "keywords": ["PDF", "Bootstrap", "Bootstrap 5"],
+    "homepage": "https://dita-bootstrap.org/pdf",
+    "vers": "5.3.9",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "org.dita-bootstrap.pdf",
+        "req": ">=5.3.9"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.pdf.theme/archive/5.3.9.zip",
+    "cksum": "006249f230c0a420a2fbda2704dcc7ad634897cc56c822cc84ad1138b6dcfa78"
+  }
+]

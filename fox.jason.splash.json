@@ -7,7 +7,7 @@
       "xkcd",
       "cats"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.splash",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/splash",
     "vers": "1.0.2",
     "license": "Apache-2.0",
     "deps": [
@@ -27,7 +27,7 @@
       "xkcd",
       "cats"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.splash",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/splash",
     "vers": "2.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -47,7 +47,7 @@
       "xkcd",
       "cats"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.splash",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/splash",
     "vers": "2.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -67,7 +67,7 @@
       "xkcd",
       "cats"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.splash",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/splash",
     "vers": "2.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -87,7 +87,7 @@
       "xkcd",
       "cats"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.splash",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/splash",
     "vers": "2.2.1",
     "license": "Apache-2.0",
     "deps": [
@@ -110,7 +110,7 @@
       "anime",
       "picsum"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.splash",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/splash",
     "vers": "3.0.0",
     "license": "Apache-2.0",
     "deps": [

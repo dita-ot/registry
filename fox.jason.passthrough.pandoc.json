@@ -15,7 +15,7 @@
       "epub",
       "latex"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.pandoc",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/pandoc",
     "vers": "1.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -51,7 +51,7 @@
       "epub",
       "latex"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.pandoc",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/pandoc",
     "vers": "1.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -87,7 +87,7 @@
       "epub",
       "latex"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.pandoc",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/pandoc",
     "vers": "1.2.1",
     "license": "Apache-2.0",
     "deps": [
@@ -123,7 +123,7 @@
       "epub",
       "latex"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.pandoc",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/pandoc",
     "vers": "1.3.0",
     "license": "Apache-2.0",
     "deps": [
@@ -159,7 +159,7 @@
       "epub",
       "latex"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.pandoc",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/pandoc",
     "vers": "2.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -191,7 +191,7 @@
       "epub",
       "latex"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.pandoc",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/pandoc",
     "vers": "2.0.1",
     "license": "Apache-2.0",
     "deps": [
@@ -223,7 +223,7 @@
       "epub",
       "latex"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.pandoc",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/pandoc",
     "vers": "2.1.0",
     "license": "Apache-2.0",
     "deps": [

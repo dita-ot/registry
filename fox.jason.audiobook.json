@@ -8,7 +8,7 @@
       "audiobook",
       "text-to-speech"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.audiobook",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/audiobook",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -29,7 +29,7 @@
       "audiobook",
       "text-to-speech"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.audiobook",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/audiobook",
     "vers": "1.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -50,7 +50,7 @@
       "audiobook",
       "text-to-speech"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.audiobook",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/audiobook",
     "vers": "1.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -71,7 +71,7 @@
       "audiobook",
       "text-to-speech"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.audiobook",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/audiobook",
     "vers": "1.3.0",
     "license": "Apache-2.0",
     "deps": [
@@ -92,7 +92,7 @@
       "audiobook",
       "text-to-speech"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.audiobook",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/audiobook",
     "vers": "1.3.1",
     "license": "Apache-2.0",
     "deps": [
@@ -113,7 +113,7 @@
       "audiobook",
       "text-to-speech"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.audiobook",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/audiobook",
     "vers": "2.0.0",
     "license": "Apache-2.0",
     "deps": [

@@ -7,7 +7,7 @@
       "xml",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.doxygen",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/doxygen",
     "vers": "1.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -35,7 +35,7 @@
       "xml",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.doxygen",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/doxygen",
     "vers": "1.3.0",
     "license": "Apache-2.0",
     "deps": [

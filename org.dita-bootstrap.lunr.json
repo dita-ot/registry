@@ -3,7 +3,7 @@
     "name": "org.dita-bootstrap.lunr",
     "description": "Lunr.js search for DITA Bootstrap 5.3.3",
     "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Lunr", "Search"],
-    "homepage": "https://infotexture.github.io/dita-bootstrap/search-box.html",
+    "homepage": "https://dita-bootstrap.org/html/search-box.html",
     "vers": "5.3.3",
     "license": "Apache-2.0",
     "deps": [
@@ -23,7 +23,7 @@
     "name": "org.dita-bootstrap.lunr",
     "description": "Lunr.js search for DITA Bootstrap 5.3.4",
     "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Lunr", "Search"],
-    "homepage": "https://infotexture.github.io/dita-bootstrap/search-box.html",
+    "homepage": "https://dita-bootstrap.org/html/search-box.html",
     "vers": "5.3.4",
     "license": "Apache-2.0",
     "deps": [
@@ -43,7 +43,7 @@
     "name": "org.dita-bootstrap.lunr",
     "description": "Lunr.js search for DITA Bootstrap 5.3.5",
     "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Lunr", "Search"],
-    "homepage": "https://infotexture.github.io/dita-bootstrap/search-box.html",
+    "homepage": "https://dita-bootstrap.org/html/search-box.html",
     "vers": "5.3.5",
     "license": "Apache-2.0",
     "deps": [
@@ -63,7 +63,7 @@
     "name": "org.dita-bootstrap.lunr",
     "description": "Lunr.js search for DITA Bootstrap 5.3.6",
     "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Lunr", "Search"],
-    "homepage": "https://infotexture.github.io/dita-bootstrap/search-box.html",
+    "homepage": "https://dita-bootstrap.org/html/search-box.html",
     "vers": "5.3.6",
     "license": "Apache-2.0",
     "deps": [
@@ -78,5 +78,25 @@
     ],
     "url": "https://github.com/dita-bootstrap/dita-bootstrap.lunr/archive/5.3.6.zip",
     "cksum": "fe330d7635b9d6626d54208fcc3a36123afe8fcd87db0cbbab5ba116d242bdc1"
+  },
+  {
+    "name": "org.dita-bootstrap.lunr",
+    "description": "Lunr.js search for DITA Bootstrap 5.3.8",
+    "keywords": ["HTML", "HTML5", "Bootstrap", "Bootstrap 5", "Responsive", "Lunr", "Search"],
+    "homepage": "https://dita-bootstrap.org/html/search-box.html",
+    "vers": "5.3.9",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "org.dita-bootstrap.html",
+        "req": ">=5.3.9"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.lunr/archive/5.3.9.zip",
+    "cksum": "308b9d2f5f1aa0cbada9bcf086c0b8a776025ced97fecb367706ec5f3ea72bd0"
   }
 ]

@@ -5,7 +5,7 @@
     "keywords": [
       "passthrough"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "homepage": "hthttps://jason-fox.github.io/dita-ot-plugins/passthroughgh",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -27,7 +27,7 @@
     "keywords": [
       "passthrough"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/passthrough",
     "vers": "2.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -49,7 +49,7 @@
     "keywords": [
       "passthrough"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/passthrough",
     "vers": "2.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -71,7 +71,7 @@
     "keywords": [
       "passthrough"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/passthrough",
     "vers": "2.2.1",
     "license": "Apache-2.0",
     "deps": [
@@ -93,7 +93,7 @@
     "keywords": [
       "passthrough"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/passthrough",
     "vers": "3.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -115,7 +115,7 @@
     "keywords": [
       "passthrough"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/passthrough",
     "vers": "3.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -137,7 +137,7 @@
     "keywords": [
       "passthrough"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/passthrough",
     "vers": "4.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -155,7 +155,7 @@
     "keywords": [
       "passthrough"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/passthrough",
     "vers": "4.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -173,7 +173,7 @@
     "keywords": [
       "passthrough"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/passthrough",
     "vers": "5.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -184,5 +184,24 @@
     ],
     "url": "https://github.com/jason-fox/fox.jason.passthrough/archive/v5.0.0.zip",
     "cksum": "b1f5ed26b84c3f8a398b2e12f53697a2b0fd46071f35d9a0f38a0960127c86ef"
+  },
+
+  {
+    "name": "fox.jason.passthrough",
+    "description": "Plug-in to enable files to bypass DITA-OT pre-processing",
+    "keywords": [
+      "passthrough"
+    ],
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/passthrough",
+    "vers": "5.0.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.0.0"
+      }
+    ],
+    "url": "https://github.com/jason-fox/fox.jason.passthrough/archive/v5.0.1.zip",
+    "cksum": "4643a8c2411f1d78c59c0b8901fe0da94685883ae907376dd0af0eed7e5bd58c"
   }
 ]

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "org.dita-bootstrap.swagger",
+    "description": "Swagger/OpenAPI documentation generator for DITA-OT ≥ 3.7 and DITA Bootstrap 5.3",
+    "keywords": [
+      "swagger",
+      "REST",
+      "auto-generated text",
+      "Bootstrap", "Bootstrap 5"
+    ],
+    "homepage": "https://dita-bootstrap.org/html/swagger.html",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "fox.jason.extend.css",
+        "req": ">=1.3.0"
+      },
+      {
+        "name": "fox.jason.passthrough",
+        "req": ">=5.0.1"
+      },
+      {
+        "name": "org.dita-bootstrap.html",
+        "req": ">=5.3.9"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.swagger/archive/1.0.0.zip",
+    "cksum": "44076f570de45da0ee2a21d0efc3a0529737c13e10b93688237217a29bf42a32"
+  }
+]

@@ -7,7 +7,7 @@
       "code-coverage",
       "profiling"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.unit-test",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/unit-test",
     "vers": "1.0.5",
     "license": "Apache-2.0",
     "deps": [
@@ -27,7 +27,7 @@
       "code-coverage",
       "profiling"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.unit-test",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/unit-test",
     "vers": "1.0.7",
     "license": "Apache-2.0",
     "deps": [
@@ -47,7 +47,7 @@
       "code-coverage",
       "profiling"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.unit-test",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/unit-test",
     "vers": "2.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -67,7 +67,7 @@
       "code-coverage",
       "profiling"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.unit-test",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/unit-test",
     "vers": "2.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -87,7 +87,7 @@
       "code-coverage",
       "profiling"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.unit-test",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/unit-test",
     "vers": "2.1.1",
     "license": "Apache-2.0",
     "deps": [
@@ -107,7 +107,7 @@
       "code-coverage",
       "profiling"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.unit-test",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/unit-test",
     "vers": "2.2.0",
     "license": "Apache-2.0",
     "deps": [
@@ -127,7 +127,7 @@
       "code-coverage",
       "profiling"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.unit-test",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/unit-test",
     "vers": "2.2.1",
     "license": "Apache-2.0",
     "deps": [

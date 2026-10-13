@@ -1,0 +1,18 @@
+[
+  {
+    "name": "org.dita-bootstrap.extension.dtd",
+    "description": "DTD specializations for DITA Bootstrap Extension 5.3.2",
+    "keywords": ["DTD", "specialization", "Bootstrap", "Bootstrap 5", "Bootstrap extension"],
+    "homepage": "https://dita-bootstrap.org/specialization.html",
+    "vers": "5.3.2",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.extension.dtd/archive/5.3.2.zip",
+    "cksum": "e750c2ea4b3660807c5a792ff6478ce2c965ebaac4b4f3080f03c7c13f152e87"
+  }
+]

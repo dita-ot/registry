@@ -7,7 +7,7 @@
       "java",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.javadoc",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/javadoc",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -35,7 +35,7 @@
       "java",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.javadoc",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/javadoc",
     "vers": "1.0.1",
     "license": "Apache-2.0",
     "deps": [
@@ -63,7 +63,7 @@
       "java",
       "auto-generated text"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.passthrough.javadoc",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/javadoc",
     "vers": "2.0.0",
     "license": "Apache-2.0",
     "deps": [

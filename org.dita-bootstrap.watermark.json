@@ -1,0 +1,22 @@
+[
+  {
+    "name": "org.dita-bootstrap.watermark",
+    "description": "Document watermarking for DITA Bootstrap 5.3.8",
+    "keywords": ["watermark", "Bootstrap", "Bootstrap 5"],
+    "homepage": "https://github.com/dita-bootstrap/dita-bootstrap.watermark",
+    "vers": "1.0.1",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=3.7.0"
+      },
+      {
+        "name": "org.dita-bootstrap.html",
+        "req": ">=5.3.9"
+      }
+    ],
+    "url": "https://github.com/dita-bootstrap/dita-bootstrap.watermark/archive/1.0.1.zip",
+    "cksum": "fe93245f7bcfc0a0915bdc0321ba379f2682aa0fc63b853dde7829bd9c70950a"
+  }
+]

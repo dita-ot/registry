@@ -6,7 +6,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -25,7 +25,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "2.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -48,7 +48,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "2.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -71,7 +71,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "3.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -94,7 +94,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "3.1.0",
     "license": "Apache-2.0",
     "deps": [
@@ -117,7 +117,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "3.1.1",
     "license": "Apache-2.0",
     "deps": [
@@ -140,7 +140,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "3.3.0",
     "license": "Apache-2.0",
     "deps": [
@@ -163,7 +163,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "3.4.0",
     "license": "Apache-2.0",
     "deps": [
@@ -186,7 +186,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "3.5.0",
     "license": "Apache-2.0",
     "deps": [
@@ -209,7 +209,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "4.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -228,7 +228,7 @@
       "xliff",
       "language-translation"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.translate.xliff",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/translate.xliff",
     "vers": "4.1.0",
     "license": "Apache-2.0",
     "deps": [

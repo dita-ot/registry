@@ -7,7 +7,7 @@
       "facebook",
       "open-graph"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.open-graph",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/open-graph",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -27,7 +27,7 @@
       "facebook",
       "open-graph"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.open-graph",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/open-graph",
     "vers": "1.1.0",
     "license": "Apache-2.0",
     "deps": [

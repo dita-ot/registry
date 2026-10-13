@@ -5,7 +5,7 @@
     "keywords": [
       "html"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.favicon",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/favicon",
     "vers": "1.0.0",
     "license": "Apache-2.0",
     "deps": [
@@ -23,7 +23,7 @@
     "keywords": [
       "html"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.favicon",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/favicon",
     "vers": "1.0.1",
     "license": "Apache-2.0",
     "deps": [
@@ -41,7 +41,7 @@
     "keywords": [
       "html"
     ],
-    "homepage": "https://jason-fox.github.io/fox.jason.favicon",
+    "homepage": "https://jason-fox.github.io/dita-ot-plugins/favicon",
     "vers": "1.1.0",
     "license": "Apache-2.0",
     "deps": [

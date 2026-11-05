@@ -1,0 +1,23 @@
+[
+  {
+    "name": "org.dita-community.text-asciiart",
+    "description": "Enhancement for the Text output",
+    "keywords": [
+      "Text",
+      "ASCIIArt",
+      "table",
+      "Syntax diagrams"
+    ],
+    "homepage": "https://github.com/dita-community/org.dita-community.text-asciiart",
+    "vers": "1.0.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.jung.ant-contrib",
+        "req": ">=1.0.beta3"
+      }
+    ],
+    "url": "https://github.com/dita-community/org.dita-community.text-asciiart/archive/refs/tags/1.0.0.zip",
+    "cksum": "c4a732d45c9ce767af9755556c00e614cc13d99f3ba4e8ef61d147e7f9ded6b6"
+  }
+]

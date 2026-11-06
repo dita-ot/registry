@@ -1,0 +1,22 @@
+[
+  {
+    "name": "io.github.jyjeanne.dita2epub",
+    "description": "EPUB 3.3 output for DITA-OT: EPUBCheck-valid e-books with EPUB Accessibility 1.1 metadata, cover pages, themes, embedded fonts, index and glossary, and Amazon KDP, Apple Books and Kobo profiles.",
+    "keywords": ["EPUB", "EPUB3", "e-book", "accessibility", "Amazon KDP", "Apple Books", "Kobo"],
+    "homepage": "https://github.com/jyjeanne/dita2epub",
+    "vers": "2.1.0",
+    "license": "Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=4.4.0"
+      },
+      {
+        "name": "org.dita.html5",
+        "req": ">=4.4.0"
+      }
+    ],
+    "url": "https://github.com/jyjeanne/DITA2ePub/releases/download/v2.1.0/io.github.jyjeanne.dita2epub-2.1.0.zip",
+    "cksum": "9219921d022601061cd1d0f3574a245bc8858aa6b2515625faed0805b8da3f09"
+  }
+]

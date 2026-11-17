@@ -1,0 +1,18 @@
+[
+  {
+    "name": "io.github.jyjeanne.dita2graph",
+    "description": "Knowledge graph output for DITA-OT: turns a map into an OKF knowledge bundle, a graph.json and an RDF graph checked against SHACL shapes, which AI agents query through an MCP server. Ships dita2graph-core for Linux, macOS and Windows.",
+    "keywords": ["knowledge graph", "OKF", "RDF", "SHACL", "MCP", "AI agents", "RAG"],
+    "homepage": "https://github.com/jyjeanne/DITA2Graph",
+    "vers": "0.2.0",
+    "license": "MIT OR Apache-2.0",
+    "deps": [
+      {
+        "name": "org.dita.base",
+        "req": ">=4.4.0"
+      }
+    ],
+    "url": "https://github.com/jyjeanne/DITA2Graph/releases/download/v0.2.0/io.github.jyjeanne.dita2graph-0.2.0.zip",
+    "cksum": "cc2876bb77b6e0d886a003cf5e02996b4d0d1bb0ed91f1dd1f121ac5a0d482c9"
+  }
+]
